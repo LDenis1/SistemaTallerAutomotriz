@@ -1,0 +1,357 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Dastone
+build_property.RootNamespace = Dastone
+build_property.ProjectDir = C:\Users\DNIS\Documents\ProyectoTecnico\integracion\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DNIS\Documents\ProyectoTecnico\integracion
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Citas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Citas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Inventario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Inventario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/OrdenT/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5UXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/OrdenT/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5UXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/OrdenT/Select.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5UXFNlbGVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Security/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Accordions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQWNjb3JkaW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/advanced.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcYWR2YW5jZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Alert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQWxlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/animation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcYW5pbWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/apex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcYXBleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Avatar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQXZhdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Badges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQmFkZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Buttons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQnV0dG9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Cards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQ2FyZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Carousels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcQ2Fyb3VzZWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/chartjs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcY2hhcnRqcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/clipboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcY2xpcGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Dropdowns.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcRHJvcGRvd25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/editor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcZWRpdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/elements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcZWxlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/email-template-alert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcZW1haWwtdGVtcGxhdGUtYWxlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/email-template-basic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcZW1haWwtdGVtcGxhdGUtYmFzaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/email-template-billing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcZW1haWwtdGVtcGxhdGUtYmlsbGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/flot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcZmxvdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Grids.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcR3JpZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/highlight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaGlnaGxpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/icons-dripicons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWNvbnMtZHJpcGljb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/icons-feather.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWNvbnMtZmVhdGhlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/icons-fontawesome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWNvbnMtZm9udGF3ZXNvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/icons-materialdesign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWNvbnMtbWF0ZXJpYWxkZXNpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/icons-themify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWNvbnMtdGhlbWlmeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/icons-typicons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWNvbnMtdHlwaWNvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/idle-timer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcaWRsZS10aW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Images.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcSW1hZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/kanban.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRca2FuYmFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/lightbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcbGlnaHRib3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/maps-google.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcbWFwcy1nb29nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/maps-leaflet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcbWFwcy1sZWFmbGV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/maps-vector.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcbWFwcy12ZWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Models.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcTW9kZWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/morris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcbW9ycmlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcTmF2YmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Navs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcTmF2cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/nestable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcbmVzdGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/OffCanvas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcT2ZmQ2FudmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Paginations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcUGFnaW5hdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/PopoverTooltips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcUG9wb3ZlclRvb2x0aXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Progress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcUHJvZ3Jlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Radio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcUmFkaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/rangeslider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRccmFuZ2VzbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/ratings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRccmF0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/repeater.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRccmVwZWF0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/ribbons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRccmliYm9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/session.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcc2Vzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Spinners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcU3Bpbm5lcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/sweetalerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcc3dlZXRhbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/tables-basic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcdGFibGVzLWJhc2ljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/tables-datatable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcdGFibGVzLWRhdGF0YWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/tables-editable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcdGFibGVzLWVkaXRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/tables-responsive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcdGFibGVzLXJlc3BvbnNpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Toasts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcVG9hc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Typography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcVHlwb2dyYXBoeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/uploads.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcdXBsb2Fkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/validation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcdmFsaWRhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/Videos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcVmlkZW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/wizard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRcd2l6YXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/UIKit/x-editable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlLaXRceC1lZGl0YWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Vehiculo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/Vehiculo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DNIS/Documents/ProyectoTecnico/integracion/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

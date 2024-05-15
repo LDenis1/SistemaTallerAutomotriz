@@ -1,0 +1,87 @@
+﻿@model Dastone.Entities.Cliente
+@{
+    ViewData["Title"] = "Crear Cliente";
+}
+
+
+<div class="container-fluid">
+    <h1 class="mt-4">Crear Cliente</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper" asp-action="Create" method="post">
+                        <h3>Seller Details</h3>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNombre" class="col-lg-3 col-form-label">Nombre</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtNombre" type="text" class="form-control" asp-for="Nombre">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtDireccion" class="col-lg-3 col-form-label">Direccion</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtDireccion"  type="text" class="form-control" asp-for="Direccion">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtTelefono" class="col-lg-3 col-form-label">Telefono</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtTelefono"  type="text" class="form-control" asp-for="Telefono">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtCorreoElectronico" class="col-lg-3 col-form-label">Correo Electronico</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtCorreoElectronico"  type="text" class="form-control" asp-for="CorreoElectronico">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtFechaRegistro" class="col-lg-3 col-form-label">Fecha de Registro</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtFechaRegistro"  type="date" class="form-control" asp-for="FechaRegistro">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNotas" class="col-lg-3 col-form-label">Notas</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtNotas"  type="text" class="form-control" asp-for="Notas">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </fieldset><!--end fieldset-->
+                        <button type="submit">Enviar</button>
+                    </form><!--end form-->
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+</div>
+
+@section styles{
+    <!--Form Wizard-->
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+}
+
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+}

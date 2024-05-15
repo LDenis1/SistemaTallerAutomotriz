@@ -1,0 +1,82 @@
+<div class="container-fluid">
+    <!-- Page-Title -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="page-title">Idle Timer</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Advanced UI</a></li>
+                            <li class="breadcrumb-item active">Idle Timer</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <!-- end page title end breadcrumb -->
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Document <small><span id="docTimeout"></span> second timeout</small></h4>
+                    <p class="text-muted mb-0">
+                        The idle timer is built on <a href="#">jQuery</a> and provides two events: <code>idle.idleTimer</code> and
+                        <code>active.idleTimer</code>, which fire when the user's idle state has changed.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="btn-group mb-3">
+                        <a href="#" id="btPause" class="btn btn-outline-primary btn-sm">Pause</a>
+                        <a href="#" id="btResume" class="btn btn-outline-primary btn-sm">Resume</a>
+                        <a href="#" id="btElapsed" class="btn btn-outline-primary btn-sm">Elapsed</a>
+                        <a href="#" id="btInit" class="btn btn-outline-primary btn-sm">Init</a>
+                        <a href="#" id="btDestroy" class="btn btn-outline-primary btn-sm">Destroy</a>
+                    </div>
+                    <textarea rows="10" cols="30" id="docStatus" class="form-control"></textarea>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Element  <small><span id="elTimeout"></span> second timeout</small></h4>
+                    <p class="text-muted mb-0">
+                        The idle timer is built on <a href="#">jQuery</a> and provides two events: <code>idle.idleTimer</code>
+                        and <code>active.idleTimer</code>, which fire when the user's idle state has changed.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="btn-group mb-3">
+                        <a href="#" id="btReset" class="btn btn-outline-primary btn-sm">Reset</a>
+                        <a href="#" id="btLastActive" class="btn btn-outline-primary btn-sm">Last Active</a>
+                        <a href="#" id="btRemaining" class="btn btn-outline-primary btn-sm">Remaining</a>
+                        <a href="#" id="btState" class="btn btn-outline-primary btn-sm">State</a>
+                    </div>
+                    <textarea rows="10" cols="30" id="elStatus" class="form-control"></textarea>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+</div><!-- container -->
+@section styles{
+
+}
+
+@section scripts{
+    <script src="~/lib/idle-timer/idle-timer.min.js"></script>
+    <script src="~/js/pages/jquery.idle-timer.init.js"></script>
+}

@@ -1,0 +1,65 @@
+//
+// Modals
+// 
+
+//
+// Modals
+// 
+.modal-demo {
+  background-color: $card-bg;
+  width: 600px;
+  border-radius: 4px;
+  display: none;
+  position: relative;
+  .close {
+      position: absolute;
+      top: 15px;
+      right: 25px;
+      color: $gray-200;
+    }
+}
+
+.modal-content{
+  border: none;
+  .modal-header{
+    background-color: $modal-header-bg;
+    .modal-title{
+      color: $white;
+      align-self: center;
+      font-weight: 500;
+      margin-top: 0;
+      font-family: $font-secondary;
+      font-size: 14px;
+    }
+  }
+  .modal-footer{
+    border-top: 1px solid $gray-300;
+    >*{
+      margin: 0 0 0 0.25rem;
+    }
+  }
+  .modal-body p,h4{
+    color: $gray-600;
+  }
+  .modal-title.custom-title{
+    color: lighten($gray-500, 80%);
+  }
+}
+
+
+
+
+.offcanvas-header{
+  background-color: $modal-header-bg;
+  h5{
+    color: $white;
+  }
+}
+
+.modal-backdrop{
+  background-color: rgba($black,.1);
+  backdrop-filter: blur(2px); 
+  &.show{
+    opacity: inherit;
+  } 
+}

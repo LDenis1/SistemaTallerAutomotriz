@@ -1,0 +1,86 @@
+﻿@model Dastone.Entities.Repuesto
+@{
+    ViewData["Title"] = "Agregar Producto";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Agregar Producto a Inventario</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper" asp-action="Create" method="post">
+                        <h3>Datos del Repuesto</h3>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNombreRepuesto" class="col-lg-3 col-form-label">Nombre</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtNombreRepuesto" type="text" class="form-control" asp-for="Nombre">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNumeroParte" class="col-lg-3 col-form-label">Número de Parte</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtNumeroParte" type="number" class="form-control" asp-for="NumeroParte">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtDescripcion" class="col-lg-3 col-form-label">Descripción</label>
+                                        <div class="col-lg-9">
+                                            <textarea id="txtDescripcion" type="text" class="form-control" asp-for="Descripcion"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtPrecio" class="col-lg-3 col-form-label">Precio</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtPrecio" type="number" class="form-control" asp-for="Precio">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtProveedor" class="col-lg-3 col-form-label">Proveedor</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtProveedor" type="text" class="form-control" asp-for="Proveedor">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNotasRepuesto" class="col-lg-3 col-form-label">Notas</label>
+                                        <div class="col-lg-9">
+                                            <textarea id="txtNotasRepuesto" type="text" class="form-control" asp-for="Notas"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </fieldset><!--end fieldset-->
+                        <button type="submit">Enviar</button>
+                    </form><!--end form-->
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+    
+</div>
+@section styles{
+    <!--Form Wizard-->
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+}
+
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+}

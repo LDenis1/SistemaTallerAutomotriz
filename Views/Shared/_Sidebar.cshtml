@@ -1,0 +1,64 @@
+﻿<div class="left-sidenav">
+    <!-- LOGO -->
+    <div class="brand">
+        <a asp-controller="home" asp-action="index" class="logo">
+            <span>
+                <img src="" alt="logo-small" class="logo-sm">
+            </span>
+            <span>
+                <img src="" alt="logo-large" class="logo-lg logo-light">
+                <img src="" alt="logo-large" class="logo-lg logo-dark">
+            </span>
+        </a>
+    </div>
+    <!--end logo-->
+    <div class="menu-content h-100" data-simplebar>
+        <ul class="metismenu left-sidenav-menu">
+            <li class="menu-label mt-0">Main</li>
+            <nav id="sidebar" class="sidebar js-sidebar">
+                <div class="sidebar-content js-simplebar">
+                    <a class="sidebar-brand" href="/">
+                        <span class="align-middle">Dashboard</span>
+                    </a>
+
+                    <ul class="sidebar-nav">
+                        <!--Cruds-->
+                        <li class="sidebar-item active">
+                            <a class="sidebar-link" href="/">
+                                <i class="align-middle"></i> <span class="align-middle">Inicio</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <hr class="hr-dashed hr-menu"> 
+            
+            <li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="/OrdenT/Select">
+                    <i class="align-middle" data-feather="archive"></i> <span class="align-middle">Ordenes de Trabajo</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="/Citas/Index">
+                    <i class="align-middle" data-feather="calendar"></i> <span class="align-middle">Citas</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="/Inventario/Index">
+                    <i class="align-middle" data-feather="clipboard"></i> <span class="align-middle">Inventario</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="/Cliente/Index">
+                    <i class="align-middle" data-feather="users"></i> <span class="align-middle">Clientes</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="/Vehiculo/Index">
+                    <i class="align-middle" data-feather="tool"></i> <span class="align-middle">Gestión de Vehículos</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

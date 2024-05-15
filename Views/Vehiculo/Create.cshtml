@@ -1,0 +1,126 @@
+﻿@model Dastone.Entities.Vehiculo
+@{
+    ViewData["Title"] = "Agregar Vehiculo";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Agregar Vehiculo</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper" asp-action="Create" method="post">
+                        <h3>Datos del Vehículo</h3>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtMarca" class="col-lg-3 col-form-label">Marca</label>
+                                        <div class="col-lg-9">
+                                            
+                                            <input id="txtMarca" type="text" class="form-control" asp-for="Marca">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtModelo" class="col-lg-3 col-form-label">Modelo</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtModelo" type="text" class="form-control" asp-for="Modelo">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtAnio" class="col-lg-3 col-form-label">Año</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtAnio" type="number" class="form-control" asp-for="Anio">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtPlaca" class="col-lg-3 col-form-label">Placa</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtPlaca"  type="text" class="form-control" asp-for="Placa">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtColor" class="col-lg-3 col-form-label">Color</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtColor"  type="text" class="form-control" asp-for="Color">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtKilometraje" class="col-lg-3 col-form-label">Kilometraje</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtKilometraje"  type="text" class="form-control" asp-for="Kilometraje">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <label for="txtNotas" class="col-lg-2 col-form-label">Notas</label>
+                                        <div class="col-lg-10">
+                                            <textarea id="txtNotas"  rows="4" class="form-control" asp-for="Notas"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <!-- Buscador y selección de cliente -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="ClienteId" class="col-lg-3 col-form-label">Cliente</label>
+                                        <div class="col-lg-9">
+                                            <select class="select2  " style="width: 100%; height: 36px;" asp-for="ClienteId">
+                                                <optgroup label="Clientes">
+                                                    @foreach (var cliente in ViewBag.Clientes)
+                                                    {
+                                                        <option value="@cliente.ClienteId">@cliente.Nombre</option>
+                                                    }
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+
+                        </fieldset><!--end fieldset-->
+                         <button type="submit">Enviar</button>
+                    </form><!--end form-->
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+</div>
+
+@section styles{
+    <!--Form Wizard-->
+   
+    <link href="~/lib/select2/select2.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+   
+    
+}
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/lib/select2/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2({
+               
+            });
+        });
+    </script>
+}

@@ -1,0 +1,104 @@
+<div class="container-fluid">
+                    <!-- Page-Title -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="page-title-box">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="page-title">Flot Charts</h4>
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript:void(0);">Charts</a></li>
+                                            <li class="breadcrumb-item active">Flot</li>
+                                        </ol>
+                                    </div><!--end col-->
+                                    <div class="col-auto align-self-center">
+                                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                                            <span class="" id="Select_date">Jan 11</span>
+                                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">
+                                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                                        </a>
+                                    </div><!--end col-->  
+                                </div><!--end row-->                                                              
+                            </div><!--end page-title-box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                    <!-- end page title end breadcrumb -->
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Multiple Statistics</h4>
+                                    <p class="text-muted mb-0">Stacked chart not only shows the trends
+                                        over time, you can also see the cumulative sum of all data.
+                                    </p> 
+                                </div><!--end card-header-->
+                                <div class="card-body">                                             
+                                    <div id="website-stats" style="height: 320px" class="flot-chart drop-shadow"></div> 
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Realtime Statistics</h4>
+                                    <p class="text-muted mb-0">You can update a chart periodically to
+                                        get a real-time effect by using a timer to insert the new data in the
+                                        plot and redraw it.
+                                    </p>  
+                                </div><!--end card-header-->
+                                <div class="card-body">        
+                                    <div id="flotRealTime" style="height: 320px" class="flot-chart drop-shadow"></div>        
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!-- end col -->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Donut Pie Chart</h4>
+                                    <p class="text-muted mb-0">Pie chart is used to see the proprotion
+                                        of each data groups, making Flot pie chart is pretty simple, in order to
+                                        make pie chart you have to incldue jquery.flot.pie.js plugin.
+                                    </p>   
+                                </div><!--end card-header-->
+                                <div class="card-body"> 
+                                    <div id="donut-chart">
+                                        <div id="placeholder" class="flot-chart drop-shadow" style="height: 320px"></div>
+                                    </div>
+                                    <div id="menu" class="button-items mt-5">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-1">Default Options</button>
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-2">Without Legend</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-3">Label Formatter</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-4">Label Radius</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-5">Label Styles #1</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-6">Label Styles #2</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-7">Hidden Labels</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-8">Combined Slice</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-9">Rectangular Pie</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-10">Tilted Pie</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-11">Donut Hole</button type="button" class="btn btn-sm btn-outline-info">
+                                        <button type="button" class="btn btn-sm btn-outline-info" id="example-12">Interactivity</button type="button" class="btn btn-sm btn-outline-info">
+                                    </div>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+
+</div>
+
+@section scripts{
+    <script src="~/lib/flot-chart/jquery.canvaswrapper.js"></script>
+    <script src="~/lib/flot-chart/jquery.colorhelpers.js"></script>
+    <script src="~/lib/flot-chart/jquery.flot.js"></script>        
+    <script src="~/lib/flot-chart/jquery.flot.saturated.js"></script>
+    <script src="~/lib/flot-chart/jquery.flot.browser.js"></script>
+    <script src="~/lib/flot-chart/jquery.flot.drawSeries.js"></script> 
+    <script src="~/lib/flot-chart/jquery.flot.uiConstants.js"></script>               
+    <script src="~/lib/flot-chart/jquery.flot.stack.js"></script>        
+    <script src="~/lib/flot-chart/jquery.flot.legend.js"></script>
+    <script src="~/lib/flot-chart/jquery.flot.pie.js"></script>
+    <script src="~/lib/flot-chart/jquery.flot.axislabels.js"></script>
+    <script src="~/lib/flot-chart/jquery.flot.tooltip.min.js"></script>
+    <script src="~/js/pages/jquery.flot.init.js"></script>
+}

@@ -1,0 +1,148 @@
+﻿@{
+    ViewData["Title"] = "Crear Orden de Trabajo";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Crear Orden de Trabajo</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper">
+                        <h3>Datos de la Orden</h3>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="selCliente" class="col-lg-3 col-form-label">Cliente</label>
+                                        <div class="col-lg-9">
+                                            <select id="selCliente" name="selCliente" class="form-control">
+                                                <option value="">Selecciona un cliente</option>
+                                                <!-- Aquí puedes insertar opciones dinámicamente desde tu base de datos -->
+                                                <option value="1">Cliente 1</option>
+                                                <option value="2">Cliente 2</option>
+                                                <!-- Otras opciones -->
+                                            </select>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="selVehiculo" class="col-lg-3 col-form-label">Vehículo</label>
+                                        <div class="col-lg-9">
+                                            <select id="selVehiculo" name="selVehiculo" class="form-control">
+                                                <option value="">Selecciona un vehículo</option>
+                                                <!-- Aquí puedes insertar opciones dinámicamente desde tu base de datos -->
+                                                <option value="1">Vehículo 1</option>
+                                                <option value="2">Vehículo 2</option>
+                                                <!-- Otras opciones -->
+                                            </select>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="selCita" class="col-lg-3 col-form-label">Cita</label>
+                                        <div class="col-lg-9">
+                                            <select id="selCita" name="selCita" class="form-control">
+                                                <option value="">Selecciona una cita</option>
+                                                <!-- Aquí puedes insertar opciones dinámicamente desde tu base de datos -->
+                                                <option value="1">Cita 1</option>
+                                                <option value="2">Cita 2</option>
+                                                <!-- Otras opciones -->
+                                            </select>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtFechaCreacion" class="col-lg-3 col-form-label">Fecha de Creación</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtFechaCreacion" name="txtFechaCreacion" type="datetime-local" class="form-control">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtTipoTrabajo" class="col-lg-3 col-form-label">Tipo de Trabajo</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtTipoTrabajo" name="txtTipoTrabajo" type="text" class="form-control">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtDetalleOrden" class="col-lg-3 col-form-label">Detalle de la Orden</label>
+                                        <div class="col-lg-9">
+                                            <textarea id="txtDetalleOrden" name="txtDetalleOrden" rows="4" class="form-control"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtEstado" class="col-lg-3 col-form-label">Estado</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtEstado" name="txtEstado" type="text" class="form-control">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtCostoTotal" class="col-lg-3 col-form-label">Costo Total</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtCostoTotal" name="txtCostoTotal" type="text" class="form-control">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNotas" class="col-lg-3 col-form-label">Notas</label>
+                                        <div class="col-lg-9">
+                                            <textarea id="txtNotas" name="txtNotas" rows="4" class="form-control"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtFechaEntrega" class="col-lg-3 col-form-label">Fecha de Entrega</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtFechaEntrega" name="txtFechaEntrega" type="datetime-local" class="form-control">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <label for="txtObservaciones" class="col-lg-2 col-form-label">Observaciones</label>
+                                        <div class="col-lg-10">
+                                            <textarea id="txtObservaciones" name="txtObservaciones" rows="6" class="form-control"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </fieldset><!--end fieldset-->
+                    </form><!--end form-->
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+</div>
+
+@section styles{
+    <!--Form Wizard-->
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+}
+
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+}

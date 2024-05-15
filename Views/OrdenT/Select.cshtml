@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Select";
+}
+
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="height: 80vh;">
+    <h1 class="mt-4">Crear Orden de Trabajo</h1>
+    <div class="row">
+        <div class="btn-container">
+            <a asp-action="Create" class="btn btn-primary btn-lg btn-block">
+                <i class="fas fa-user" ></i><span class="align-middle">  Cliente Existente</span>
+            </a>
+            <a asp-action="CLVH" class="btn btn-secondary btn-lg btn-block">
+                <i class="fas fa-user-plus"></i><span class="align-middle">  Nuevo Cliente</span>
+            </a>
+        </div>
+    </div><!--end row-->
+</div>
+
+@section styles{
+    <!--Form Wizard-->
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+}
+
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+}

@@ -1,0 +1,89 @@
+﻿@model Dastone.Entities.Citum
+@{
+    ViewData["Title"] = "Crear Citas";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Crear Cita</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper" asp-action="Create" method="post">
+                        <h3>Datos de la Cita</h3>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtFechaHora" class="col-lg-3 col-form-label">Fecha y Hora</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtFechaHora" type="datetime-local" class="form-control" asp-for="FechaHora">
+                                            
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtTipoServicio" class="col-lg-3 col-form-label">Tipo de Servicio</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtTipoServicio" type="text" class="form-control" asp-for="TipoServicio">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtDescripcion" class="col-lg-3 col-form-label">Descripción</label>
+                                        <div class="col-lg-9">
+                                            <textarea id="txtDescripcion" type="text" class="form-control" asp-for="Descripcion"></textarea>
+                                            
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtEstado" class="col-lg-3 col-form-label">Estado</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtEstado" type="text" class="form-control" asp-for="Estado">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtFechaCreacion" class="col-lg-3 col-form-label">Fecha de Creación</label>
+                                        <div class="col-lg-9">
+                                            <input id="txtFechaCreacion" type="text" class="form-control" asp-for="FechaCreacion">
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="txtNotas" class="col-lg-3 col-form-label">Notas</label>
+                                        <div class="col-lg-9">
+                                            <textarea id="txtNotas" type="text" class="form-control" asp-for="Notas"></textarea>
+                                            
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </fieldset><!--end fieldset-->
+                        <button type="submit">Enviar</button>
+                    </form><!--end form-->
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+</div>
+
+@section styles{
+    <!--Form Wizard-->
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+}
+
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+}

@@ -1,0 +1,88 @@
+<div class="container-fluid">
+    <!-- Page-Title -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="page-title">Lightbox</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Advanced UI</a></li>
+                            <li class="breadcrumb-item active">Lightbox</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <!-- end page title end breadcrumb -->
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Single Image Lightbox</h4>
+                    <p class="text-muted mb-0">Simple popups lightbox</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <a href="~/images/small/img-1.jpg" class="image-popup-vertical-fit">
+                        <img src="~/images/small/img-1.jpg" alt="" class="img-fluid">
+                    </a>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Lightbox Gallery</h4>
+                    <p class="text-muted mb-0">You may put any HTML content in each gallery item.</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="popup-gallery d-flex">
+                        <a href="~/images/small/img-2.jpg" title="The Cleaner">
+                            <img src="~/images/small/img-2.jpg" alt="" class="img-fluid">
+                        </a>
+                        <a href="~/images/small/img-3.jpg" title="The Cleaner">
+                            <img src="~/images/small/img-3.jpg" alt="" class="img-fluid">
+                        </a>
+                        <a href="~/images/small/img-4.jpg" title="The Cleaner">
+                            <img src="~/images/small/img-4.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Popup With Video And Map</h4>
+                    <p class="text-muted mb-0">In this example lightboxes are automatically disabled on small screen size and default behavior of link is triggered.</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="button-items">
+                        <a class="btn btn-outline-primary popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Open YouTube video</a>
+                        <a class="btn btn-outline-primary popup-vimeo" href="https://vimeo.com/45830194">Open Vimeo video</a>
+                        <a class="btn btn-outline-primary popup-gmaps" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">Open Google Map</a>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+</div>
+@section styles{
+    <link href="~/lib/lightbox/magnific-popup.css" rel="stylesheet" type="text/css" />
+}
+
+    @section scripts{
+    <script src="~/lib/lightbox/jquery.magnific-popup.js"></script>
+    <script src="~/js/pages/jquery.lightbox.init.js"></script>
+}

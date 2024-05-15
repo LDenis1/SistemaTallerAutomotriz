@@ -1,0 +1,29 @@
+﻿@model Dastone.Entities.Login.Login
+
+@{
+    ViewData["Title"] = "Iniciar sesión";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <div class="m-sm-4">
+            <div class="text-center mb-3">
+                <img src="~/Images/logo.png" alt="Logo de la empresa" style="max-width: 150px;">
+            </div>
+            <form asp-action="Login" method="post" class="m-t">
+                <div class="form-group">
+                    <input asp-for="Usuario" class="form-control form-control-user" placeholder="Usuario" required>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Contraseña" type="password" class="form-control form-control-user" placeholder="Contraseña" required>
+                </div>
+                <div class="custom-control custom-checkbox small">
+                    <input asp-for="Recordarme" type="checkbox" class="custom-control-input" id="recordarme">
+                    <label class="custom-control-label" for="recordarme">Recordarme</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-user btn-block">Iniciar sesión</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,174 @@
+<div class="container-fluid">
+    <!-- Page-Title -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="page-title">Edit Table</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">pages</a></li>
+                            <li class="breadcrumb-item active">Edit Table</li>
+                        </ol>
+                    </div>
+                    <!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                        </a>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end page-title-box-->
+        </div>
+        <!--end col-->
+    </div>
+    <!--end row-->
+    <!-- end page title end breadcrumb -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Edit Table With Button</h4>
+                    <p class="text-muted mb-0">Add toolbar column with edit and delete buttons.</p>
+                </div>
+                <!--end card-header-->
+                <div class="card-body">
+                    <button class="btn  btn-primary btn-sm mb-3" id="submit_data">Submit</button>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-sm" id="makeEditable">
+                            <thead>
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Email </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Default</td>
+                                    <td>Defaultson</td>
+                                    <td>def@somemail.com</td>
+                                </tr>
+                                <tr class="success">
+                                    <td>Success</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>Danger</td>
+                                    <td>Moe</td>
+                                    <td>mary@example.com</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>Info</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>Warning</td>
+                                    <td>Refs</td>
+                                    <td>bo@example.com</td>
+                                </tr>
+                                <tr class="active">
+                                    <td>Active</td>
+                                    <td>Activeson</td>
+                                    <td>act@example.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <span class="float-right">
+                        <button id="but_add" class="btn btn-success btn-sm">Add New Row</button>
+                    </span>
+                    <!--end table-->
+                </div>
+                <!--end card-body-->
+            </div>
+            <!--end card-->
+        </div> <!-- end col -->
+    </div> <!-- end row -->
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Examples</h4>
+                    <p class="text-muted mb-0">just start typing to edit, or move around with arrow keys or mouse
+                        clicks!</p>
+                </div>
+                <!--end card-header-->
+                <div class="card-body">
+                    <table id="mainTable" class="table table-striped  mb-0">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Cost</th>
+                                <th>Profit</th>
+                                <th>Fun</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Car</td>
+                                <td>100</td>
+                                <td>200</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Bike</td>
+                                <td>330</td>
+                                <td>240</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Plane</td>
+                                <td>430</td>
+                                <td>540</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Yacht</td>
+                                <td>100</td>
+                                <td>200</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Segway</td>
+                                <td>330</td>
+                                <td>240</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th><strong>TOTAL</strong></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                </div>
+            </div>
+        </div> <!-- end col -->
+    </div> <!-- end row -->
+
+</div><!-- container -->
+
+@section scripts{
+<script src="~/lib/tiny-editable/mindmup-editabletable.js"></script>
+<script src="~/lib/tiny-editable/mindmup-editabletable.js"></script>
+<script src="~/lib/tiny-editable/numeric-input-example.js"></script>
+<script src="~/lib/bootable/bootstable.js"></script>
+<script src="~/js/pages/jquery.tabledit.init.js"></script>
+}

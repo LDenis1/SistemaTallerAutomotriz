@@ -1,0 +1,81 @@
+﻿@model List<Dastone.Entities.Vehiculo>
+
+@{
+    ViewData["Title"] = "Vehiculos";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Gestión de Vehiculos</h1>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <a asp-action="Create" class="btn btn-warning">
+                                <i data-feather="edit-2"></i><span class="align-middle">Agregar Vehiculo</span>
+                            </a>
+                        </div><!--end col-->
+                    </div>  <!--end row-->
+                </div><!--end card-header-->
+                <div class="card-body" id="makeEditable">
+                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap " style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                        <thead>
+                            <tr>
+                                <th>VehiculoId</th>
+                                <th>Placa</th>
+                                <th>ClienteId</th>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>Año</th>
+                                <th>Color</th>
+                                <th>Kilometraje</th>
+                                <th>Notas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var vehiculo in Model)
+                            {
+                                <tr>
+                                    <td>@vehiculo.VehiculoId</td>
+                                    <td>@vehiculo.Placa</td>
+                                    <td>@vehiculo.ClienteId</td>
+                                    <td>@vehiculo.Marca</td>
+                                    <td>@vehiculo.Modelo</td>
+                                    <td>@vehiculo.Anio</td>
+                                    <td>@vehiculo.Color</td>
+                                    <td>@vehiculo.Kilometraje</td>
+                                    <td>@vehiculo.Notas</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div> <!-- end col -->
+    </div> <!-- end row -->
+</div>
+
+@section scripts{
+    <!-- Required datatable js -->
+    <script src="~/lib/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/dataTables.bootstrap5.min.js"></script>
+    <!-- Buttons examples -->
+    <script src="~/lib/datatables/dataTables.buttons.min.js"></script>
+    <script src="~/lib/datatables/buttons.bootstrap5.min.js"></script>
+    <script src="~/lib/datatables/jszip.min.js"></script>
+    <script src="~/lib/datatables/pdfmake.min.js"></script>
+    <script src="~/lib/datatables/vfs_fonts.js"></script>
+    <script src="~/lib/datatables/buttons.html5.min.js"></script>
+    <script src="~/lib/datatables/buttons.print.min.js"></script>
+    <script src="~/lib/datatables/buttons.colVis.min.js"></script>
+    <!-- Responsive examples -->
+    <script src="~/lib/datatables/dataTables.responsive.min.js"></script>
+    <script src="~/lib/datatables/responsive.bootstrap4.min.js"></script>
+    <script src="~/js/pages/jquery.datatable.init.js"></script>
+    <script src="~/lib/tiny-editable/mindmup-editabletable.js"></script>
+    <script src="~/lib/tiny-editable/mindmup-editabletable.js"></script>
+    <script src="~/lib/tiny-editable/numeric-input-example.js"></script>
+    <script src="~/lib/bootable/bootstable.js"></script>
+    <script src="~/js/pages/jquery.tabledit.init.js"></script>
+}

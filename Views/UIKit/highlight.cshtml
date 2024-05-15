@@ -1,0 +1,75 @@
+<div class="container-fluid">
+                    <!-- Page-Title -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="page-title-box">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4 class="page-title">Highlight</h4>
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript:void(0);">Advanced UI</a></li>
+                                            <li class="breadcrumb-item active">Highlight</li>
+                                        </ol>
+                                    </div><!--end col-->
+                                    <div class="col-auto align-self-center">
+                                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                                            <span class="" id="Select_date">Jan 11</span>
+                                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">
+                                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                                        </a>
+                                    </div><!--end col-->  
+                                </div><!--end row-->                                                              
+                            </div><!--end page-title-box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                    <!-- end page title end breadcrumb -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">HTML Highlight</h4>
+                                    <p class="text-muted mb-0">It will automatically be pretty-printed.</p>
+                                </div><!--end card-header-->
+                                <div class="card-body">        
+                                    <pre class="prettyprint lang-html escape">
+<div class="card-header">
+    <h4 class="card-title">Clipboard Examples of Textarea</h4>
+    <p class="text-muted mb-0">Textarea example of clipboard</p>
+</div>                                        
+                                    </pre>                                    
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!-- end col -->
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Css Highlight</h4>
+                                    <p class="text-muted mb-0">It will automatically be pretty-printed.</p>
+                                </div><!--end card-header-->
+                                <div class="card-body">        
+                                    <pre class="prettyprint lang-css escape">
+.example {
+    font-family: Georgia, Times, serif;
+    color: #555;
+    text-align: center;
+}
+                                    </pre>                               
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+
+                </div>
+
+@section styles{
+    <link href="~/lib/prettify/prettify.css" rel="stylesheet" type="text/css" />
+}
+
+@section scripts{
+    <script src="~/lib/prettify/run_prettify.js"></script>
+    <script src="~/js/jquery.core.js"></script>
+}

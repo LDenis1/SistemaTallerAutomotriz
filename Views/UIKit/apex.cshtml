@@ -1,0 +1,280 @@
+<div class="container-fluid">
+    <!-- Page-Title -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="page-title">Apex Charts</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Charts</a></li>
+                            <li class="breadcrumb-item active">Apex</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <!-- end page title end breadcrumb -->
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Basic Line Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_line1" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Line with Data Labels</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_line2" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Basic Area Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_area1" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Area Chart - Datetime X-Axis</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div class="toolbar">
+                            <button class="btn btn-sm btn-outline-light" id="one_month">1M</button>
+                            <button class="btn btn-sm btn-outline-light" id="six_months">6M</button>
+                            <button class="btn btn-sm btn-outline-light active" id="one_year">1Y</button>
+                            <button class="btn btn-sm btn-outline-light" id="ytd">YTD</button>
+                            <button class="btn btn-sm btn-outline-light" id="all">ALL</button>
+                        </div>
+                        <div id="apex_area2" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Basic Column Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_column1" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Column Chart With Datalabels</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_column2" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Basic Bar Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_bar" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Multiple Y-Axis Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_mixed" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">3D Bubble Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_bubble" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Simple Candlestick Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo">
+                        <div id="apex_candlestick" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Simple Pie Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="">
+                        <div id="apex_pie1" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Gradient Donut Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="">
+                        <div id="apex_pie2" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Patterned Donut Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="">
+                        <div id="apex_pie3" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Basic RadialBar Chart</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo m-0">
+                        <div id="apex_radialbar1" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Multiple RadialBars</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo m-0">
+                        <div id="apex_radialbar2" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Stroked Circular Guage</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="chart-demo m-0">
+                        <div id="apex_radialbar3" class="apex-charts"></div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Sparkline inline</h4>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div id="spark1" class="apex-charts"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="spark2" class="apex-charts"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="spark3" class="apex-charts"></div>
+                        </div>
+                    </div>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+</div>
+
+@section scripts{
+    <script src="~/lib/apex-charts/apexcharts.min.js"></script>
+    <script src="~/lib/apex-charts/irregular-data-series.js"></script>
+    <script src="~/lib/apex-charts/ohlc.js"></script>
+    <script src="~/js/pages/jquery.apexcharts.init.js"></script>
+}

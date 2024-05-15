@@ -1,0 +1,139 @@
+<div class="container-fluid">
+    <!-- Page-Title -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="page-title">Chartjs Charts</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Charts</a></li>
+                            <li class="breadcrumb-item active">Chartjs</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <!-- end page title end breadcrumb -->
+    <div class="row">
+        <div class="col-lg-12 col-xl-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Line Chart</h4>
+                    <p class="text-muted mb-0">
+                        A line chart is a way of plotting data
+                        points on a line. Often, it is used to show trend data, and the
+                        comparison of two data sets.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <canvas id="lineChart" class="drop-shadow" height="300"></canvas>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div> <!-- end col -->
+
+        <div class="col-lg-12 col-xl-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Donut Chart</h4>
+                    <p class="text-muted mb-0">
+                        Pie and doughnut charts are probably
+                        the most commonly used chart there are. They are divided into segments,
+                        the arc of each segment shows the proportional value of each piece of
+                        data.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <canvas id="doughnut" class="drop-shadow" height="300"></canvas>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div> <!-- end col -->
+
+        <div class="col-lg-12 col-xl-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Bar Chart</h4>
+                    <p class="text-muted mb-0">
+                        A bar chart is a way of showing data as
+                        bars. It is sometimes used to show trend data, and the comparison of
+                        multiple data sets side by side.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <canvas id="bar" class="drop-shadow" height="300"></canvas>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div> <!-- end col -->
+
+        <div class="col-lg-12 col-xl-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Polar Chart</h4>
+                    <p class="text-muted mb-0">
+                        Polar area charts are similar to pie
+                        charts, but each segment has the same angle - the radius of the segment
+                        differs depending on the value.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <canvas id="polarArea" class="drop-shadow" height="300"> </canvas>
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div> <!-- end col -->
+    </div> <!-- end row -->
+
+    <div class="row">
+        <div class="col-lg-12 col-xl-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Pie Chart</h4>
+                    <p class="text-muted mb-0">
+                        Pie and doughnut charts are probably
+                        the most commonly used chart there are. They are divided into segments,
+                        the arc of each segment shows the proportional value of each piece of
+                        data.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <canvas id="pie" class="drop-shadow" height="300"></canvas>
+                </div><!--end card-body-->
+            </div> <!-- end card -->
+        </div> <!-- end col -->
+
+        <div class="col-lg-12 col-xl-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Radar Chart</h4>
+                    <p class="text-muted mb-0">
+                        A radar chart is a way of showing
+                        multiple data points and the variation between them. They are often
+                        useful for comparing the points of two or more different data sets.
+                    </p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <canvas id="radar" class="drop-shadow" height="300"></canvas>
+                </div><!--end card-body-->
+            </div> <!-- end card -->
+        </div> <!-- end col -->
+    </div> <!-- end row -->
+
+</div>
+
+
+@section scripts{
+    <!-- Chart JS -->
+    <script src="~/lib/chartjs/chart.min.js"></script>
+    <script src="~/js/pages/jquery.chartjs.init.js"></script>
+}

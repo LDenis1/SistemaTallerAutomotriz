@@ -1,0 +1,89 @@
+<div class="container-fluid">
+    <!-- Page-Title -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="page-title">Uploads</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dastone</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Forms</a></li>
+                            <li class="breadcrumb-item active">Uploads</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ms-1"></i>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <!-- end page title end breadcrumb -->
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">File Upload 1</h4>
+                    <p class="text-muted mb-0">Your so fresh input file — Default version</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <input type="file" id="input-file-now" class="dropify" />
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">File Upload 2</h4>
+                    <p class="text-muted mb-0">You can add a default value</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <input type="file" id="input-file-now-custom-1" class="dropify" data-default-file="/lib/dropify/images/1.jpg" />
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">File Upload 3</h4>
+                    <p class="text-muted mb-0">You can set the height</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <input type="file" id="input-file-now-custom-2" class="dropify" data-height="500" />
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">File Upload 4</h4>
+                    <p class="text-muted mb-0">You can combine options</p>
+                </div><!--end card-header-->
+                <div class="card-body">
+                    <input type="file" id="input-file-now-custom-3" class="dropify" data-height="500" data-default-file="/lib/dropify/images/2.jpg" />
+                </div><!--end card-body-->
+            </div><!--end card-->
+        </div><!--end col-->
+    </div><!--end row-->
+
+</div>
+@section styles{
+    <link href="~/lib/dropify/css/dropify.min.css" rel="stylesheet">
+}
+
+    @section scripts{
+    <script src="~/lib/dropify/js/dropify.min.js"></script>
+    <script src="~/js/pages/jquery.form-upload.init.js"></script>
+}
