@@ -26,11 +26,13 @@ namespace PruebaContext.Controllers
             // Contar el número de tablas en la base de datos
             var numeroDeTablas = _context.Clientes.Count();
             var numeroDeCitas = _context.Cita.Count();
+            var numeroDeOrdenes = _context.OrdenTrabajos.Count();
 
 
             // Pasar el número de tablas a la vista
             ViewBag.NumeroDeTablas = numeroDeTablas;
             ViewBag.NumeroDeCitas = numeroDeCitas;
+            ViewBag.NumeroDeOrdenes = numeroDeOrdenes;
 
             return View();
         }

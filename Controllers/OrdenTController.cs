@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Dastone.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PruebaContext.Models;
 using System.Data;
 using System.Diagnostics;
@@ -8,17 +10,20 @@ namespace PruebaContext.Controllers
 {
     public class OrdenTController : Controller
     {
+        private readonly PruebaContexto _context;
         private readonly ILogger<OrdenTController> _logger;
 
-        public OrdenTController(ILogger<OrdenTController> logger)
+        public OrdenTController(PruebaContexto context, ILogger<OrdenTController> logger)
 		{
+            _context = context;
             _logger = logger;
         }
 
 		[Authorize(Roles = "Administrador")]
 		public IActionResult Index()
         {
-            return View();
+            var ordenes = _context.OrdenTrabajos.ToList();
+            return View(ordenes);
         }
 
         [Authorize(Roles = "Administrador")]

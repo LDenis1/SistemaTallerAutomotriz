@@ -1,136 +1,55 @@
-﻿@{
+﻿@model List<Dastone.Entities.OrdenTrabajo>
+@{
     ViewData["Title"] = "OrdenT";
 }
 
 <div class="container-fluid">
-    <h1 class="mt-4">Ordenes de Trabajo</h1>
+    <h1 class="mt-4">Órdenes de Trabajo</h1>
     <div class="row">
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
                     <div class="row align-items-center">
                         <div class="col">
-                            <a asp-action="Create" class="btn btn-warning">
+                            <a asp-action="Select" class="btn btn-warning">
                                 <i data-feather="edit-2"></i><span class="align-middle">Crear Orden de Trabajo</span>
                             </a>
                         </div><!--end col-->
                     </div>  <!--end row-->
                 </div><!--end card-header-->
                 <div class="card-body">
-                    <div class="card-body"> 
                     <div class="table-responsive" id="makeEditable">
                         <table class="table table-hover mb-0 datatable-buttons" id="datatable-buttons">
                             <thead class="thead-light">
                                 <tr>
-                                    <th>Project Name</th>
-                                    <th>Client Name</th>
-                                    <th>Start Date</th>
-                                    <th>Deadline</th>
-                                    <th>Status</th>
-                                    <th>Progress</th>
+                                    <th>Cliente</th>
+                                    <th>Placa</th>
+                                    <th>Fecha Creación</th>
+                                    <th>Tipo Trabajo</th>
+                                    <th>Detalle Orden</th>
+                                    <th>Estado</th>
+                                    <th>Costo Total</th>
+                                    <th>Fecha Entrega</th>
+                                    <th>Observaciones</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>Product Devlopment</td>
-                                    <td>
-                                        <img src="~/images/users/user-2.jpg" alt="" class="thumb-sm rounded me-2">
-                                        Kevin J. Heal
-                                    </td>
-                                    <td>20/3/2020</td>
-                                    <td>5/5/2020</td>
-                                    <td><span class="badge badge-md badge-boxed  badge-soft-success">Active</span></td>
-                                    <td>
-                                        <small class="float-end ms-2 pt-1 font-10">92%</small>
-                                        <div class="progress mt-2" style="height:3px;">
-                                            <div class="progress-bar bg-success" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>New Office Building</td>
-                                    <td>
-                                        <img src="~/images/users/user-3.jpg" alt="" class="thumb-sm rounded me-2">
-                                        Frank M. Lyons
-                                    </td>
-                                    <td>11/6/2020</td>
-                                    <td>15/7/2020</td>
-                                    <td><span class="badge badge-md badge-boxed  badge-soft-warning">Panding</span></td>
-                                    <td>
-                                        <small class="float-end ms-2 pt-1 font-10">0%</small>
-                                        <div class="progress mt-2" style="height:3px;">
-                                            <div class="progress-bar  bg-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Website &amp; Blog</td>
-                                    <td>
-                                        <img src="~/images/users/user-4.jpg" alt="" class="thumb-sm rounded me-2">
-                                        Hyman M. Cross
-                                    </td>
-                                    <td>21/6/2020</td>
-                                    <td>3/7/2020</td>
-                                    <td><span class="badge badge-md badge-boxed  badge-soft-warning">Panding</span></td>
-                                    <td>
-                                        <small class="float-end ms-2 pt-1 font-10">0%</small>
-                                        <div class="progress mt-2" style="height:3px;">
-                                            <div class="progress-bar  bg-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Market Research</td>
-                                    <td>
-                                        <img src="~/images/users/user-5.jpg" alt="" class="thumb-sm rounded me-2">
-                                        Angelo E. Butler
-                                    </td>
-                                    <td>30/4/2020</td>
-                                    <td>1/6/2020</td>
-                                    <td><span class="badge badge-md badge-boxed  badge-soft-success">Active</span></td>
-                                    <td>
-                                        <small class="float-end ms-2 pt-1 font-10">78%</small>
-                                        <div class="progress mt-2" style="height:3px;">
-                                            <div class="progress-bar  bg-success" role="progressbar" style="width: 78%;" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Export Marketing</td>
-                                    <td>
-                                        <img src="~/images/users/user-6.jpg" alt="" class="thumb-sm rounded me-2">
-                                        Robert C. Golding
-                                    </td>
-                                    <td>20/3/2020</td>
-                                    <td>5/5/2020</td>
-                                    <td><span class="badge badge-md badge-boxed  badge-soft-success">Active</span></td>
-                                    <td>
-                                        <small class="float-end ms-2 pt-1 font-10">45%</small>
-                                        <div class="progress mt-2" style="height:3px;">
-                                            <div class="progress-bar  bg-success" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Website &amp; Blog</td>
-                                    <td>
-                                        <img src="~/images/users/user-8.jpg" alt="" class="thumb-sm rounded me-2">
-                                        Phillip T. Morse
-                                    </td>
-                                    <td>8/4/2020</td>
-                                    <td>2/6/2020</td>
-                                    <td><span class="badge badge-md badge-boxed  badge-soft-danger">Complete</span></td>
-                                    <td>
-                                        <small class="float-end ms-2 pt-1 font-10">100%</small>
-                                        <div class="progress mt-2" style="height:3px;">
-                                            <div class="progress-bar  bg-pink" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </td>
-                                </tr>
+                                @foreach (var orden in Model)
+                                {
+                                    <tr>
+                                        <td>@orden.ClienteId</td>
+                                        <td>@orden.Placa</td>
+                                        <td>@orden.FechaCreacion.("dd/MM/yyyy")</td>
+                                        <td>@orden.TipoTrabajo</td>
+                                        <td>@orden.DetalleOrden</td>
+                                        <td>@orden.Estado</td>
+                                        <td>@orden.CostoTotal</td>
+                                        <td>@orden.FechaEntrega?.ToString("dd/MM/yyyy")</td>
+                                        <td>@orden.Observaciones</td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
-
                     </div><!--end table-responsive-->
                 </div><!--end card-body-->
             </div><!--end card-->
