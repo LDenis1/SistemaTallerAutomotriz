@@ -4,86 +4,111 @@
 }
 
 <div class="container-fluid">
-    <h1 class="mt-4">Agregar Vehiculo</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Inicio</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Index">Vehiculo</a></li>
+                            <li class="breadcrumb-item active">Agregar Vehiculo</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ml-1"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <h1 class="mt-4">Agregar Vehículo</h1>
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper" asp-action="Create" method="post">
+                    <form class="mt-5" asp-action="Create" method="post">
                         <h3>Datos del Vehículo</h3>
                         <fieldset>
-                            <div class="row">
+                            <!-- Marca y Modelo -->
+                            <div class="row mt-5">
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtMarca" class="col-lg-3 col-form-label">Marca</label>
                                         <div class="col-lg-9">
-                                            
-                                            <input id="txtMarca" type="text" class="form-control" asp-for="Marca">
+                                            <input id="txtMarca" type="text" class="form-control" asp-for="Marca" placeholder="Introduce la marca del vehículo" aria-label="Marca del Vehículo" required>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtModelo" class="col-lg-3 col-form-label">Modelo</label>
                                         <div class="col-lg-9">
-                                            <input id="txtModelo" type="text" class="form-control" asp-for="Modelo">
+                                            <input id="txtModelo" type="text" class="form-control" asp-for="Modelo" placeholder="Introduce el modelo del vehículo" aria-label="Modelo del Vehículo" required>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
-                            </div><!--end row-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <!-- Año y Placa -->
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtAnio" class="col-lg-3 col-form-label">Año</label>
                                         <div class="col-lg-9">
-                                            <input id="txtAnio" type="number" class="form-control" asp-for="Anio">
+                                            <input id="txtAnio" type="number" class="form-control" asp-for="Anio" placeholder="Introduce el año del vehículo" aria-label="Año del Vehículo" required>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtPlaca" class="col-lg-3 col-form-label">Placa</label>
                                         <div class="col-lg-9">
-                                            <input id="txtPlaca"  type="text" class="form-control" asp-for="Placa">
+                                            <input id="txtPlaca" type="text" class="form-control" asp-for="Placa" placeholder="Introduce la placa del vehículo" aria-label="Placa del Vehículo" required>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
-                            </div><!--end row-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <!-- Color y Kilometraje -->
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtColor" class="col-lg-3 col-form-label">Color</label>
                                         <div class="col-lg-9">
-                                            <input id="txtColor"  type="text" class="form-control" asp-for="Color">
+                                            <input id="txtColor" type="text" class="form-control" asp-for="Color" placeholder="Introduce el color del vehículo" aria-label="Color del Vehículo" required>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtKilometraje" class="col-lg-3 col-form-label">Kilometraje</label>
                                         <div class="col-lg-9">
-                                            <input id="txtKilometraje"  type="text" class="form-control" asp-for="Kilometraje">
+                                            <input id="txtKilometraje" type="text" class="form-control" asp-for="Kilometraje" placeholder="Introduce el kilometraje del vehículo" aria-label="Kilometraje del Vehículo" required>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
-                            </div><!--end row-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <!-- Notas -->
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group row">
                                         <label for="txtNotas" class="col-lg-2 col-form-label">Notas</label>
                                         <div class="col-lg-10">
-                                            <textarea id="txtNotas"  rows="4" class="form-control" asp-for="Notas"></textarea>
+                                            <textarea id="txtNotas" rows="4" class="form-control" asp-for="Notas" placeholder="Introduce cualquier nota adicional" aria-label="Notas del Vehículo" required></textarea>
                                         </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
-                            </div><!--end row-->
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
                             <!-- Buscador y selección de cliente -->
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="ClienteId" class="col-lg-3 col-form-label">Cliente</label>
                                         <div class="col-lg-9">
-                                            <select class="select2  " style="width: 100%; height: 36px;" asp-for="ClienteId">
+                                            <select class="select2" style="width: 100%; height: 36px;" asp-for="ClienteId" aria-label="Seleccionar Cliente" required>
                                                 <optgroup label="Clientes">
                                                     @foreach (var cliente in ViewBag.Clientes)
                                                     {
@@ -92,17 +117,24 @@
                                                 </optgroup>
                                             </select>
                                         </div>
+                                    </div><!-- end form-group -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-form-label col-form-label">
+                                            <button type="submit" class="btn btn-primary" id="submit-button">Enviar</button>
+                                        </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                             </div><!--end row-->
-
-                        </fieldset><!--end fieldset-->
-                         <button type="submit">Enviar</button>
-                    </form><!--end form-->
-                </div><!--end card-body-->
-            </div><!--end card-->
-        </div><!--end col-->
-    </div><!--end row-->
+                        </fieldset><!-- end fieldset -->
+                    </form><!-- end form -->
+                </div><!-- end card-body -->
+            </div><!-- end card -->
+        </div><!-- end col -->
+    </div><!-- end row -->
 </div>
 
 @section styles{

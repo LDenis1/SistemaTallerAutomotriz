@@ -1,41 +1,63 @@
-﻿@{
+﻿@model Dastone.Entities.OrdenTrabajo
+@{
     ViewData["Title"] = "Crear Orden de Trabajo";
 }
-
-<div class="container-fluid">
-    <h1 class="mt-4">Crear Orden de Trabajo</h1>
+<div class="container-fluid mt-4">
     <div class="row">
         <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Inicio</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Ordenes de Trabajo</a></li>
+                            <li class="breadcrumb-item active">Crear Orden de Trabajo</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ml-1"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <h1 class="mt-2">Crear Orden de Trabajo</h1>
+    <div class="row mt-5 ">
+        <div class="col-sm-14">
             <div class="card">
                 <div class="card-body">
-                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper">
+                    <form asp-action="Create" method="post">
                         <h3>Datos de la Orden</h3>
                         <fieldset>
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="selCliente" class="col-lg-3 col-form-label">Cliente</label>
+                                        <label for="ClienteId" class="col-lg-3 col-form-label">Cliente</label>
                                         <div class="col-lg-9">
-                                            <select id="selCliente" name="selCliente" class="form-control">
-                                                <option value="">Selecciona un cliente</option>
-                                                <!-- Aquí puedes insertar opciones dinámicamente desde tu base de datos -->
-                                                <option value="1">Cliente 1</option>
-                                                <option value="2">Cliente 2</option>
-                                                <!-- Otras opciones -->
+                                            <select class="select2 form-control" style="width: 100%; height: 36px;" asp-for="ClienteId" required>
+                                                <option disabled selected>Selecciona una opción</option>
+                                                @foreach (var cliente in ViewBag.Clientes)
+                                                {
+                                                    <option value="@cliente.ClienteId">@cliente.Nombre</option>
+                                                }
                                             </select>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="selVehiculo" class="col-lg-3 col-form-label">Vehículo</label>
+                                        <label for="Placa" class="col-lg-3 col-form-label">Placa Vehículo</label>
                                         <div class="col-lg-9">
-                                            <select id="selVehiculo" name="selVehiculo" class="form-control">
-                                                <option value="">Selecciona un vehículo</option>
-                                                <!-- Aquí puedes insertar opciones dinámicamente desde tu base de datos -->
-                                                <option value="1">Vehículo 1</option>
-                                                <option value="2">Vehículo 2</option>
-                                                <!-- Otras opciones -->
+                                            <select class="select2 form-control" style="width: 100%; height: 36px;" asp-for="Placa" required>
+                                                <option disabled selected>Selecciona una opción</option>
+                                                @foreach (var vehiculo in ViewBag.Vehiculos)
+                                                {
+                                                    <option value="@vehiculo.Placa">@vehiculo.Placa</option>
+                                                }
                                             </select>
                                         </div>
                                     </div><!--end form-group-->
@@ -44,23 +66,17 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="selCita" class="col-lg-3 col-form-label">Cita</label>
+                                        <label for="FechaCreacion" class="col-lg-3 col-form-label">Fecha de Creación</label>
                                         <div class="col-lg-9">
-                                            <select id="selCita" name="selCita" class="form-control">
-                                                <option value="">Selecciona una cita</option>
-                                                <!-- Aquí puedes insertar opciones dinámicamente desde tu base de datos -->
-                                                <option value="1">Cita 1</option>
-                                                <option value="2">Cita 2</option>
-                                                <!-- Otras opciones -->
-                                            </select>
+                                            <input id="FechaCreacion" name="FechaCreacion" type="datetime-local" class="form-control" asp-for="FechaCreacion" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtFechaCreacion" class="col-lg-3 col-form-label">Fecha de Creación</label>
+                                        <label for="TipoTrabajo" class="col-lg-3 col-form-label">Tipo de Trabajo</label>
                                         <div class="col-lg-9">
-                                            <input id="txtFechaCreacion" name="txtFechaCreacion" type="datetime-local" class="form-control">
+                                            <input id="TipoTrabajo" name="TipoTrabajo" type="text" class="form-control" asp-for="TipoTrabajo" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -68,35 +84,17 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtTipoTrabajo" class="col-lg-3 col-form-label">Tipo de Trabajo</label>
+                                        <label for="DetalleOrden" class="col-lg-3 col-form-label">Detalle de la Orden</label>
                                         <div class="col-lg-9">
-                                            <input id="txtTipoTrabajo" name="txtTipoTrabajo" type="text" class="form-control">
+                                            <textarea id="DetalleOrden" name="DetalleOrden" rows="4" class="form-control" asp-for="DetalleOrden" required></textarea>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtDetalleOrden" class="col-lg-3 col-form-label">Detalle de la Orden</label>
+                                        <label for="Estado" class="col-lg-3 col-form-label">Estado</label>
                                         <div class="col-lg-9">
-                                            <textarea id="txtDetalleOrden" name="txtDetalleOrden" rows="4" class="form-control"></textarea>
-                                        </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
-                            </div><!--end row-->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group row">
-                                        <label for="txtEstado" class="col-lg-3 col-form-label">Estado</label>
-                                        <div class="col-lg-9">
-                                            <input id="txtEstado" name="txtEstado" type="text" class="form-control">
-                                        </div>
-                                    </div><!--end form-group-->
-                                </div><!--end col-->
-                                <div class="col-md-6">
-                                    <div class="form-group row">
-                                        <label for="txtCostoTotal" class="col-lg-3 col-form-label">Costo Total</label>
-                                        <div class="col-lg-9">
-                                            <input id="txtCostoTotal" name="txtCostoTotal" type="text" class="form-control">
+                                            <input id="Estado" name="Estado" type="text" class="form-control" asp-for="Estado" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -104,17 +102,17 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtNotas" class="col-lg-3 col-form-label">Notas</label>
+                                        <label for="CostoTotal" class="col-lg-3 col-form-label">Costo Total</label>
                                         <div class="col-lg-9">
-                                            <textarea id="txtNotas" name="txtNotas" rows="4" class="form-control"></textarea>
+                                            <input id="CostoTotal" name="CostoTotal" type="number" step="0.01" class="form-control" asp-for="CostoTotal" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtFechaEntrega" class="col-lg-3 col-form-label">Fecha de Entrega</label>
+                                        <label for="FechaEntrega" class="col-lg-3 col-form-label">Fecha de Entrega</label>
                                         <div class="col-lg-9">
-                                            <input id="txtFechaEntrega" name="txtFechaEntrega" type="datetime-local" class="form-control">
+                                            <input id="FechaEntrega" name="FechaEntrega" type="datetime-local" class="form-control" asp-for="FechaEntrega" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -122,9 +120,18 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group row">
-                                        <label for="txtObservaciones" class="col-lg-2 col-form-label">Observaciones</label>
+                                        <label for="Observaciones" class="col-lg-2 col-form-label">Observaciones</label>
                                         <div class="col-lg-10">
-                                            <textarea id="txtObservaciones" name="txtObservaciones" rows="6" class="form-control"></textarea>
+                                            <textarea id="Observaciones" name="Observaciones" rows="6" class="form-control" asp-for="Observaciones"></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-lg-9 offset-lg-3">
+                                            <button type="submit" class="btn btn-primary">Enviar</button>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -137,12 +144,22 @@
     </div><!--end row-->
 </div>
 
+
 @section styles{
     <!--Form Wizard-->
+    <link href="~/lib/select2/select2.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
 }
 
 @section scripts{
     <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
     <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+    <script src="~/lib/select2/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2({
+
+            });
+        });
+    </script>
 }

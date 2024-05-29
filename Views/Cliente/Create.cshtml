@@ -21,7 +21,6 @@
                             <span class="" id="Select_date">Jan 11</span>
                             <i data-feather="calendar" class="align-self-center icon-xs ml-1"></i>
                         </a>
-                        
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end page-title-box-->
@@ -32,22 +31,23 @@
         <div class="col-sm-14">
             <div class="card">
                 <div class="card-body">
-                    <form class="mt-5" asp-action="Create" method="post">
+                    <form asp-action="Create" method="post">
+                        <h3>Datos del Cliente</h3>
                         <fieldset>
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtNombre" class="col-lg-3 col-form-label">Nombre</label>
                                         <div class="col-lg-9">
-                                            <input id="txtNombre" type="text" class="form-control" asp-for="Nombre" required>
+                                            <input id="txtNombre" type="text" class="form-control" asp-for="Nombre" placeholder="Ingrese el nombre" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtDireccion" class="col-lg-3 col-form-label">Direccion</label>
+                                        <label for="txtDireccion" class="col-lg-3 col-form-label">Dirección</label>
                                         <div class="col-lg-9">
-                                            <input id="txtDireccion" type="text" class="form-control" asp-for="Direccion" required>
+                                            <input id="txtDireccion" type="text" class="form-control" asp-for="Direccion" placeholder="Ingrese la dirección" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -55,17 +55,17 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtTelefono" class="col-lg-3 col-form-label">Telefono</label>
+                                        <label for="txtTelefono" class="col-lg-3 col-form-label">Teléfono</label>
                                         <div class="col-lg-9">
-                                            <input id="txtTelefono" type="text" class="form-control" asp-for="Telefono" required>
+                                            <input id="txtTelefono" type="text" class="form-control" asp-for="Telefono" placeholder="Ingrese el teléfono" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label for="txtCorreoElectronico" class="col-lg-3 col-form-label">Correo Electronico</label>
+                                        <label for="txtCorreoElectronico" class="col-lg-3 col-form-label">Correo Electrónico</label>
                                         <div class="col-lg-9">
-                                            <input id="txtCorreoElectronico" type="email" class="form-control" asp-for="CorreoElectronico" required>
+                                            <input id="txtCorreoElectronico" type="email" class="form-control" asp-for="CorreoElectronico" placeholder="Ingrese el correo electrónico" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -75,7 +75,7 @@
                                     <div class="form-group row">
                                         <label for="txtFechaRegistro" class="col-lg-3 col-form-label">Fecha de Registro</label>
                                         <div class="col-lg-9">
-                                            <input id="txtFechaRegistro" type="date" class="form-control" asp-for="FechaRegistro" required>
+                                            <input id="txtFechaRegistro" type="date" class="form-control" asp-for="FechaRegistro" placeholder="Seleccione la fecha de registro" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -83,7 +83,7 @@
                                     <div class="form-group row">
                                         <label for="txtNotas" class="col-lg-3 col-form-label">Notas</label>
                                         <div class="col-lg-9">
-                                            <input id="txtNotas" type="text" class="form-control" asp-for="Notas">
+                                            <input id="txtNotas" type="text" class="form-control" asp-for="Notas" placeholder="Ingrese notas" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -97,7 +97,7 @@
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                             </div><!--end row-->
-                        </fieldset ><!--end fieldset-->
+                        </fieldset><!--end fieldset-->
                     </form><!--end form-->
                 </div><!--end card-body-->
             </div><!--end card-->

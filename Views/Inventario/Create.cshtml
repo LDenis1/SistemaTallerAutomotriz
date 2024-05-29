@@ -4,20 +4,42 @@
 }
 
 <div class="container-fluid">
-    <h1 class="mt-4">Agregar Producto a Inventario</h1>
     <div class="row">
         <div class="col-sm-12">
+            <div class="page-title-box">
+                <div class="row">
+                    <div class="col">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Inicio</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Inventario</a></li>
+                            <li class="breadcrumb-item active">Agregar Producto</li>
+                        </ol>
+                    </div><!--end col-->
+                    <div class="col-auto align-self-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                            <span class="" id="Select_date">Jan 11</span>
+                            <i data-feather="calendar" class="align-self-center icon-xs ml-1"></i>
+                        </a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end page-title-box-->
+        </div><!--end col-->
+    </div><!--end row-->
+    <h1 class="mt-2">Agregar Producto a Inventario</h1>
+    <div class="row mt-5">
+        <div class="col-sm-14">
             <div class="card">
                 <div class="card-body">
-                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper" asp-action="Create" method="post">
+                    <form asp-action="Create" method="post">
                         <h3>Datos del Repuesto</h3>
                         <fieldset>
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-md-6">
                                     <div class="form-group row">
                                         <label for="txtNombreRepuesto" class="col-lg-3 col-form-label">Nombre</label>
                                         <div class="col-lg-9">
-                                            <input id="txtNombreRepuesto" type="text" class="form-control" asp-for="Nombre">
+                                            <input id="txtNombreRepuesto" type="text" class="form-control" asp-for="Nombre" placeholder="Ingrese el nombre del repuesto" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -25,7 +47,7 @@
                                     <div class="form-group row">
                                         <label for="txtNumeroParte" class="col-lg-3 col-form-label">Número de Parte</label>
                                         <div class="col-lg-9">
-                                            <input id="txtNumeroParte" type="number" class="form-control" asp-for="NumeroParte">
+                                            <input id="txtNumeroParte" type="number" class="form-control" asp-for="NumeroParte" placeholder="Ingrese el número de parte" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -35,7 +57,7 @@
                                     <div class="form-group row">
                                         <label for="txtDescripcion" class="col-lg-3 col-form-label">Descripción</label>
                                         <div class="col-lg-9">
-                                            <textarea id="txtDescripcion" type="text" class="form-control" asp-for="Descripcion"></textarea>
+                                            <textarea id="txtDescripcion" class="form-control" asp-for="Descripcion" placeholder="Ingrese la descripción del repuesto" rows="3" required></textarea>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -43,7 +65,7 @@
                                     <div class="form-group row">
                                         <label for="txtPrecio" class="col-lg-3 col-form-label">Precio</label>
                                         <div class="col-lg-9">
-                                            <input id="txtPrecio" type="number" class="form-control" asp-for="Precio">
+                                            <input id="txtPrecio" type="number" class="form-control" asp-for="Precio" placeholder="Ingrese el precio del repuesto" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -53,7 +75,7 @@
                                     <div class="form-group row">
                                         <label for="txtProveedor" class="col-lg-3 col-form-label">Proveedor</label>
                                         <div class="col-lg-9">
-                                            <input id="txtProveedor" type="text" class="form-control" asp-for="Proveedor">
+                                            <input id="txtProveedor" type="text" class="form-control" asp-for="Proveedor" placeholder="Ingrese el proveedor del repuesto" required>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
@@ -61,19 +83,26 @@
                                     <div class="form-group row">
                                         <label for="txtNotasRepuesto" class="col-lg-3 col-form-label">Notas</label>
                                         <div class="col-lg-9">
-                                            <textarea id="txtNotasRepuesto" type="text" class="form-control" asp-for="Notas"></textarea>
+                                            <textarea id="txtNotasRepuesto" class="form-control" asp-for="Notas" placeholder="Ingrese notas sobre el repuesto" rows="3" required></textarea>
+                                        </div>
+                                    </div><!--end form-group-->
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-lg-9 offset-lg-3">
+                                            <button type="submit" class="btn btn-primary">Enviar</button>
                                         </div>
                                     </div><!--end form-group-->
                                 </div><!--end col-->
                             </div><!--end row-->
                         </fieldset><!--end fieldset-->
-                        <button type="submit">Enviar</button>
                     </form><!--end form-->
                 </div><!--end card-body-->
             </div><!--end card-->
         </div><!--end col-->
     </div><!--end row-->
-    
 </div>
 @section styles{
     <!--Form Wizard-->
