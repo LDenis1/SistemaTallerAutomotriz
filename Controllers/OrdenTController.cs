@@ -41,6 +41,27 @@ namespace PruebaContext.Controllers
         }
 
         [Authorize(Roles = "Administrador")]
+
+        public IActionResult Comprobante(int id)
+        {
+            // Obtener la orden de trabajo por su ID
+            var ordenTrabajo = _context.OrdenTrabajos
+                .Include(o => o.Cliente) // Incluye el cliente relacionado si es necesario
+                .FirstOrDefault(o => o.OrdenId == id);
+
+            // Verificar si la orden de trabajo existe
+            if (ordenTrabajo == null)
+            {
+                // Manejar el caso en que no se encuentre la orden de trabajo (puede redirigir a una página de error, por ejemplo)
+                return NotFound();
+            }
+
+            // Pasar la orden de trabajo a la vista "Comprobante"
+            return View(ordenTrabajo);
+
+        }
+
+        [Authorize(Roles = "Administrador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(OrdenTrabajo ordenTrabajo)

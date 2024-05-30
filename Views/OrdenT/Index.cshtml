@@ -31,6 +31,7 @@
                                     <th>Costo Total</th>
                                     <th>Fecha Entrega</th>
                                     <th>Observaciones</th>
+                                    <th>Acciones</th> <!-- Nueva columna para los botones -->
                                 </tr>
                             </thead>
                             <tbody>
@@ -39,19 +40,24 @@
                                     <tr>
                                         <td>@orden.ClienteId</td>
                                         <td>@orden.Placa</td>
-                                        <td>@orden.FechaCreacion.("dd/MM/yyyy")</td>
+                                        <td>@orden.FechaCreacion</td>
                                         <td>@orden.TipoTrabajo</td>
                                         <td>@orden.DetalleOrden</td>
                                         <td>@orden.Estado</td>
                                         <td>@orden.CostoTotal</td>
-                                        <td>@orden.FechaEntrega?.ToString("dd/MM/yyyy")</td>
+                                        <td>@orden.FechaEntrega</td>
                                         <td>@orden.Observaciones</td>
+                                        <td>
+                                            <a asp-action="Comprobante" asp-route-id="@orden.OrdenId" class="btn btn-success">
+                                                <i class="fas fa-file-alt"></i><span class="align-middle">Generar Comprobante</span>
+                                            </a>
+                                        </td>
                                     </tr>
                                 }
                             </tbody>
                         </table>
                     </div><!--end table-responsive-->
-                </div><!--end card-body-->
+                </div>
             </div><!--end card-->
         </div><!--end col-->
     </div><!--end row-->

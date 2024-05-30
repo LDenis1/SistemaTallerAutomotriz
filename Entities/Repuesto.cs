@@ -19,5 +19,7 @@ public partial class Repuesto
 
     public string? Notas { get; set; }
 
+    public int Stock { get; set; }
+
     public virtual ICollection<RepuestoUsado> RepuestoUsados { get; set; } = new List<RepuestoUsado>();
 }
