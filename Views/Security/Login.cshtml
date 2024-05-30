@@ -5,25 +5,29 @@
     Layout = "~/Views/Shared/_LayoutLogin.cshtml";
 }
 
-<div class="card">
-    <div class="card-body">
-        <div class="m-sm-4">
-            <div class="text-center mb-3">
-                <img src="~/Images/logo.png" alt="Logo de la empresa" style="max-width: 150px;">
-            </div>
+
+<div>
+            <h2 class="text-center mb-4">Iniciar sesión</h2>
+            
             <form asp-action="Login" method="post" class="m-t">
                 <div class="form-group">
-                    <input asp-for="Usuario" class="form-control form-control-user" placeholder="Usuario" required>
+                    <label for="usuario" class="form-label">Usuario</label> <!-- Nuevo subtítulo -->
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        <input asp-for="Usuario" id="usuario" class="form-control form-control-user" placeholder="Ingresa tu usuario" required>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <input asp-for="Contraseña" type="password" class="form-control form-control-user" placeholder="Contraseña" required>
+                    <label for="contraseña" class="form-label">Contraseña</label> <!-- Nuevo subtítulo -->
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        <input asp-for="Contraseña" type="password" id="contraseña" class="form-control form-control-user" placeholder="Ingresa tu contraseña" required>
+                    </div>
                 </div>
-                <div class="custom-control custom-checkbox small">
+                <div class="form-group custom-control custom-checkbox small">
                     <input asp-for="Recordarme" type="checkbox" class="custom-control-input" id="recordarme">
                     <label class="custom-control-label" for="recordarme">Recordarme</label>
                 </div>
                 <button type="submit" class="btn btn-primary btn-user btn-block">Iniciar sesión</button>
             </form>
-        </div>
-    </div>
 </div>

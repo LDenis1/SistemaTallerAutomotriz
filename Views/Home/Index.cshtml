@@ -1,4 +1,4 @@
-﻿
+﻿@model List<Dastone.Entities.Citum>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -89,26 +89,20 @@
             <div class="dash-datepick mb-3">
                 <input type="hidden" id="light_datepick" />
             </div>
-            <ul class="list-group">
-                <li class="list-group-item align-items-center d-flex">
-                    <div class="media">
-                        <img src="~/images/widgets/project1.jpg" class="me-3 thumb-sm align-self-center rounded-circle" alt="...">
-                        <div class="media-body align-self-center">
-                            <h5 class="m-0 font-13">Cita programada Cliente: </h5>
-                            <p class="text-muted mb-0">Hoy 07:30 AM</p>
-                        </div><!--end media body-->
-                    </div>
-                </li>
-                <li class="list-group-item align-items-center ">
-                    <div class="media">
-                        <img src="~/images/users/user-5.jpg" class="me-3 thumb-sm align-self-center rounded-circle" alt="...">
-                        <div class="media-body align-self-center">
-                                <h5 class="m-0 font-13">Cita programada Cliente:</h5>
-                            <p class="text-muted mb-0">Hoy 12:30 PM</p>
-                        </div><!--end media body-->
-                    </div>
-                </li> 
-            </ul>
+                <ul class="list-group">
+                    @foreach (var citum in Model)
+                    {
+                        <li class="list-group-item align-items-center d-flex">
+                            <div class="media">
+                                <img src="~/images/widgets/project1.jpg" class="me-3 thumb-sm align-self-center rounded-circle" alt="...">
+                                <div class="media-body align-self-center">
+                                    <h5 class="m-0 font-13">Cita, Descripcion de la cita: @citum.Descripcion</h5>
+                                    <p class="text-muted mb-0">@citum.FechaHora</p>
+                                </div><!--end media body-->
+                            </div>
+                        </li>
+                    }
+                </ul>
         </div><!--end col-->
         </div><!--end col-->
     </div><!--end col-->

@@ -27,6 +27,14 @@ namespace PruebaContext.Controllers
             var numeroDeTablas = _context.Clientes.Count();
             var numeroDeCitas = _context.Cita.Count();
             var numeroDeOrdenes = _context.OrdenTrabajos.Count();
+            // Obtener las citas más próximas ordenadas por fecha y hora
+            var Citas = _context.Cita           
+                .OrderBy(c => c.FechaHora)
+                .Where(c=> c.FechaHora >= DateTime.Now)
+                .Take(3) // Limitar a los 5 próximos
+                .ToList();
+
+
 
 
             // Pasar el número de tablas a la vista
@@ -34,7 +42,7 @@ namespace PruebaContext.Controllers
             ViewBag.NumeroDeCitas = numeroDeCitas;
             ViewBag.NumeroDeOrdenes = numeroDeOrdenes;
 
-            return View();
+            return View(Citas);
         }
 
         public IActionResult Privacy()

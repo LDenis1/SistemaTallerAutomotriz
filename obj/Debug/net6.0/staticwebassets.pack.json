@@ -1,6 +1,90 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\close-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\close-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\ibm.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\ibm.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\microsoft.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\microsoft.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\map-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map-image.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\navbar-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\navbar-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
+    },
+    {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-dark.css",
       "PackagePath": "staticwebassets\\css\\app-dark.css"
     },
@@ -103,6 +187,10 @@
     {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\simplebar.css",
       "PackagePath": "staticwebassets\\css\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\favicon.ico",
@@ -483,6 +571,18 @@
     {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\us_flag.jpg",
       "PackagePath": "staticwebassets\\images\\flags\\us_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\img-3.webp",
+      "PackagePath": "staticwebassets\\images\\img-3.webp"
     },
     {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo-dark.png",
@@ -939,6 +1039,10 @@
     {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.widgets.init.js",
       "PackagePath": "staticwebassets\\js\\pages\\jquery.widgets.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\simplebar.min.js",

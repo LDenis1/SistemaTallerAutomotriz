@@ -23,6 +23,7 @@ namespace PruebaContext.Controllers
 		public IActionResult Index()
         {
             var citum = _context.Cita.ToList();
+
             return View(citum);
         }
 
