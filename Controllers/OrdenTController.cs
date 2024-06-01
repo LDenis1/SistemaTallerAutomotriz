@@ -104,6 +104,13 @@ namespace PruebaContext.Controllers
             return RedirectToAction("Create", "Cliente");
         }
 
+        [Authorize(Roles = "Administrador")]
+        public IActionResult Repuestos(int id)
+        {
+
+            return RedirectToAction("Index", "Repuestos", id);
+        }
+
 
         public IActionResult Privacy()
         {

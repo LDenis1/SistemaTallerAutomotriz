@@ -1,0 +1,97 @@
+﻿@model Dastone.Entities.RepuestoUsado;
+@{
+    ViewData["Title"] = "Repuestos";
+}
+
+<div class="container-fluid">
+    <h2>Asignar Repuestos</h2>
+
+    <form class="mt-5" asp-action="AsignarRepuestos" method="post">
+        <h3>Datos del Vehículo</h3>
+        <fieldset>
+            <!-- Marca y Modelo -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label for="txtOrdenId" class="col-lg-3 col-form-label">OrdenID</label>
+                        <div class="col-lg-9">
+                            <input id="@ViewBag.ID" type="number" class="form-control" asp-for="OrdenId" placeholder="Introduce el numero de la orden" aria-label="Marca del Vehículo" required>
+                        </div>
+                    </div><!-- end form-group -->
+                </div><!-- end col -->
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label for="txtRepuestoId" class="col-lg-3 col-form-label">RepuestoID</label>
+                        <div class="col-lg-9">
+                            <input id="txtRepuestoId" type="number" class="form-control" asp-for="RepuestoId" placeholder="Introduce el modelo del vehículo" aria-label="Modelo del Vehículo" required>
+                        </div>
+                    </div><!-- end form-group -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <!-- Año y Placa -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label for="txtCantidad" class="col-lg-3 col-form-label">Cantidad</label>
+                        <div class="col-lg-9">
+                            <input id="txtCantidad" type="number" class="form-control" asp-for="Cantidad" placeholder="Introduce el año del vehículo" aria-label="Año del Vehículo" required>
+                        </div>
+                    </div><!-- end form-group -->
+                </div><!-- end col -->
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label for="txtDescripcion" class="col-lg-3 col-form-label">Descripcion</label>
+                        <div class="col-lg-9">
+                            <input id="txtDescripcion" type="text" class="form-control" asp-for="Descripcion" placeholder="Introduce la placa del vehículo" aria-label="Placa del Vehículo" required>
+                        </div>
+                    </div><!-- end form-group -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label for="txtCostoTotal" class="col-lg-3 col-form-label">CostoTotal</label>
+                        <div class="col-lg-9">
+                            <input id="txtCostoTotal" type="number" class="form-control" asp-for="CostoTotal" placeholder="Introduce el año del vehículo" aria-label="Año del Vehículo" required>
+                        </div>
+                    </div><!-- end form-group -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group row">
+                        <div class="col-form-label col-form-label">
+                            <button type="submit" class="btn btn-primary" id="submit-button">Enviar</button>
+                        </div>
+                    </div><!--end form-group-->
+                </div><!--end col-->
+            </div><!--end row-->
+        </fieldset><!-- end fieldset -->
+    </form>
+</div>
+
+@section scripts{
+    <!-- Required datatable js -->
+    <script src="~/lib/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/dataTables.bootstrap5.min.js"></script>
+    <!-- Buttons examples -->
+    <script src="~/lib/datatables/dataTables.buttons.min.js"></script>
+    <script src="~/lib/datatables/buttons.bootstrap5.min.js"></script>
+    <script src="~/lib/datatables/jszip.min.js"></script>
+    <script src="~/lib/datatables/pdfmake.min.js"></script>
+    <script src="~/lib/datatables/vfs_fonts.js"></script>
+    <script src="~/lib/datatables/buttons.html5.min.js"></script>
+    <script src="~/lib/datatables/buttons.print.min.js"></script>
+    <script src="~/lib/datatables/buttons.colVis.min.js"></script>
+    <!-- Responsive examples -->
+    <script src="~/lib/datatables/dataTables.responsive.min.js"></script>
+    <script src="~/lib/datatables/responsive.bootstrap4.min.js"></script>
+    <script src="~/js/pages/jquery.datatable.init.js"></script>
+    <script src="~/lib/tiny-editable/mindmup-editabletable.js"></script>
+    <script src="~/lib/tiny-editable/mindmup-editabletable.js"></script>
+    <script src="~/lib/tiny-editable/numeric-input-example.js"></script>
+    <script src="~/lib/bootable/bootstable.js"></script>
+    <script src="~/js/pages/jquery.tabledit.init.js"></script>
+}
