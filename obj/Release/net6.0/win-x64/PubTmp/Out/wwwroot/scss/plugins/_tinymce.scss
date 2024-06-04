@@ -1,0 +1,74 @@
+//
+// _tinymce.scss
+// 
+.tox-tinymce{
+  border: 1px solid $border !important;
+}
+.tox {
+  color: $body-color !important;
+  .tox-menubar{
+    background-color: $body-bg !important;
+  }
+  .tox-mbtn{
+    color: $body-color !important;
+    &:hover{
+      background-color: darken($body-bg, 4%) !important;
+    }
+  }
+  .tox-toolbar, 
+  .tox-toolbar__overflow, 
+  .tox-toolbar__primary{
+    background-color: $body-bg !important;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg height='39px' viewBox='0 0 40 39px' width='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0' y='38px' width='100' height='1' fill='#000'/%3E%3C/svg%3E") left 0 top 0 $body-bg !important;
+  }
+  .tox-tbtn svg,
+  .tox-tbtn--disabled svg, 
+  .tox-tbtn--disabled:hover svg, 
+  .tox-tbtn:disabled svg, 
+  .tox-tbtn:disabled:hover svg{
+    fill: $gray-700 !important;
+    &:hover{
+      background-color: darken($body-bg, 4%) !important;
+    }
+  }
+  .tox-tbtn--enabled,
+  .tox-tbtn{
+    color: $gray-700 !important;
+    &:hover{
+      color: $gray-700 !important;
+      background: darken($body-bg, 4%) !important;
+    }
+  }
+  .tox-split-button:hover{
+    box-shadow: none !important;
+  }
+  .tox-tbtn--enabled,
+  .tox-split-button:focus{
+    color: $gray-700 !important;
+    background: darken($body-bg, 4%) !important;
+  }
+  .tox-edit-area__iframe{
+    background: $body-bg !important;
+    border-top: 1px solid $border !important;
+  }
+  .tox-statusbar{
+    color: $gray-600 !important;
+    background: darken($body-bg, 4%) !important;
+    border-top: 1px solid $border !important;
+  }
+  .tox-menubar+.tox-toolbar, 
+  .tox-menubar+.tox-toolbar-overlord .tox-toolbar__primary{
+    border-top: 1px solid $border !important;
+  }
+  .tox-statusbar a, 
+  .tox-statusbar__path-item, 
+  .tox-statusbar__wordcount{
+    color: $gray-500 !important;
+  }
+}
+.tox:not([dir=rtl]) .tox-toolbar__group:not(:last-of-type){
+  border-right: 1px solid $border !important;
+}
+#basic-conf_ifr body{  
+  color: $body-color !important;
+}

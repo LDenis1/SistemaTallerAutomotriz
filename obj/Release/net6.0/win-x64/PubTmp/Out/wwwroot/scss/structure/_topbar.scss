@@ -1,0 +1,177 @@
+/*
+Template Name: Dastone - Admin & Dashboard Template
+Author: Mannatthemes
+File: Topbar
+*/
+
+
+
+.topbar {
+ width: 100%;
+ z-index: 1001;
+}
+
+.navbar-custom {
+  background: $header-light-bg;
+  min-height: $header-height;
+  position: relative;
+  border-bottom: 1px solid $border;
+  .nav-link {
+      padding: 0 0.75rem;
+      color: $header-item-color;
+      line-height: $header-height;
+      max-height: $header-height;
+      .nav-icon {
+          font-size: 18px;
+      }
+  }
+  .dropdown-toggle {
+      &:after {
+          content: initial;
+      }
+  }
+  .topbar-nav {
+    height: $header-height;
+      li {
+          float: left;
+          &.show {
+              .nav-link {
+                  background-color: lighten($header-light-bg, 3%);
+                  color: $body-color;
+              }
+          }
+         .topbar-icon{
+           height: 20px;
+           width: 20px;
+         }
+      }
+  }
+}
+
+.button-menu-mobile {
+  border: none;
+  color: $header-icon-color;
+  width: 60px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-user {
+  .nav-user-name {
+      vertical-align: middle;
+  }
+}
+
+/* Notification */
+
+.notification-list {
+  .notification-menu{
+    max-height: 220px;
+    margin-left: 0;
+  }
+  .noti-icon-badge {
+      display: inline-block;
+      position: absolute;
+      top: 9px;
+      right: 8px;
+      border: 2px solid rgba($card-bg, 0.6);
+      border-radius: 50%;
+      padding: 1px 4px 1px;
+      font-size: 8px !important;
+  }
+}
+
+// Search
+
+
+.app-search-topbar {
+  form {
+      position: relative;
+      z-index: 1; 
+  }
+  button {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      text-align: center;
+      background-color: transparent;
+      color: $header-icon-color; 
+      i{
+          display: flex;
+      }
+      &:focus {
+          outline: none; 
+      }
+  }
+  input {
+      width: 100%;
+      height: 56px;
+      border: none;
+      font-size: 12px;
+      border-radius: 4px;
+      padding-left: 54px;
+      padding-right: 15px;
+      background-color: $dropdown-bg; 
+      color: $body-color;
+      &:focus {
+          box-shadow: none;
+          outline: none !important; 
+      }
+  }
+}
+
+@media (max-width: 1316.98px) {
+    .topbar{
+        position: fixed;
+    }
+    .page-wrapper {
+        .page-content{
+            margin-top: $header-height;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+  .topbar {
+      .topbar-left {
+          width: $sidebar-width-collapsed;            
+          .logo-lg {
+              display: none !important; 
+          }
+      }
+     
+      .app-search {
+          .form-control,
+          .form-control:focus{
+              width: $sidebar-width;
+          }  
+      }
+  }   
+}
+
+@media (max-width: 768px) and (max-width: 1023.98px){
+  .app-search{
+      display: none;
+  }
+}
+
+@media (max-width: 767px){
+  .app-search,
+  .hidden-sm {
+      display: none;
+  }
+}
+
+@media (max-width: 375px){
+  
+  .page-title-box {
+      .breadcrumb{
+          display: none;
+      }
+  }
+}
+

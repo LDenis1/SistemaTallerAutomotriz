@@ -1,0 +1,3785 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\close-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\close-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\ibm.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\ibm.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\logos\\microsoft.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\microsoft.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\map-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map-image.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\navbar-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\navbar-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\assets\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-dark.css",
+      "PackagePath": "staticwebassets\\css\\app-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-dark.css.map",
+      "PackagePath": "staticwebassets\\css\\app-dark.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-dark.min.css",
+      "PackagePath": "staticwebassets\\css\\app-dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-dark.min.css.map",
+      "PackagePath": "staticwebassets\\css\\app-dark.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-rtl.css",
+      "PackagePath": "staticwebassets\\css\\app-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\app-rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\app-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\app-rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app.css.map",
+      "PackagePath": "staticwebassets\\css\\app.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\css\\app.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\app.min.css.map",
+      "PackagePath": "staticwebassets\\css\\app.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap-dark.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap-dark.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-dark.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap-dark.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap-dark.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-dark.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\icons.css",
+      "PackagePath": "staticwebassets\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\icons.css.map",
+      "PackagePath": "staticwebassets\\css\\icons.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\icons.min.css.map",
+      "PackagePath": "staticwebassets\\css\\icons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\css\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\dripicons-v2.eot",
+      "PackagePath": "staticwebassets\\fonts\\dripicons-v2.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\dripicons-v2.svg",
+      "PackagePath": "staticwebassets\\fonts\\dripicons-v2.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\dripicons-v2.ttf",
+      "PackagePath": "staticwebassets\\fonts\\dripicons-v2.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\dripicons-v2.woff",
+      "PackagePath": "staticwebassets\\fonts\\dripicons-v2.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\feather.eot",
+      "PackagePath": "staticwebassets\\fonts\\feather.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\feather.svg",
+      "PackagePath": "staticwebassets\\fonts\\feather.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\feather.ttf",
+      "PackagePath": "staticwebassets\\fonts\\feather.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\feather.woff",
+      "PackagePath": "staticwebassets\\fonts\\feather.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\inter-bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\inter-bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-light.woff",
+      "PackagePath": "staticwebassets\\fonts\\inter-light.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\inter-light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\inter-medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\inter-medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\inter-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\inter-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\inter-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\la-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\la-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\la-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\la-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\la-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\la-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\la-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\la-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\la-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\la-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\la-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\la-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\la-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\la-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\la-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\la-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\typicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\typicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\typicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\typicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\typicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\typicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\fonts\\typicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\typicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\auth-bg.png",
+      "PackagePath": "staticwebassets\\images\\auth-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\bell.png",
+      "PackagePath": "staticwebassets\\images\\bell.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\amazon.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\amazon.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\amazon.svg",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\amazon.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\flipcart.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\flipcart.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\google.svg",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\insta.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\insta.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\lenovo.svg",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\lenovo.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\paypal.svg",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\paypal.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\shopify.svg",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\shopify.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\brand-logo\\spotify.svg",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\browser_logo\\chrome.png",
+      "PackagePath": "staticwebassets\\images\\browser_logo\\chrome.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\browser_logo\\in-explorer.png",
+      "PackagePath": "staticwebassets\\images\\browser_logo\\in-explorer.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\browser_logo\\micro-edge.png",
+      "PackagePath": "staticwebassets\\images\\browser_logo\\micro-edge.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\browser_logo\\mozilla.png",
+      "PackagePath": "staticwebassets\\images\\browser_logo\\mozilla.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\browser_logo\\opera.png",
+      "PackagePath": "staticwebassets\\images\\browser_logo\\opera.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\browser_logo\\safari.png",
+      "PackagePath": "staticwebassets\\images\\browser_logo\\safari.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\cards\\card-1.png",
+      "PackagePath": "staticwebassets\\images\\cards\\card-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\cards\\card-2.png",
+      "PackagePath": "staticwebassets\\images\\cards\\card-2.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\cards\\card-3.png",
+      "PackagePath": "staticwebassets\\images\\cards\\card-3.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\cards\\card-4.png",
+      "PackagePath": "staticwebassets\\images\\cards\\card-4.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\cards\\card-5.png",
+      "PackagePath": "staticwebassets\\images\\cards\\card-5.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\dashboards\\crovex.jpg",
+      "PackagePath": "staticwebassets\\images\\dashboards\\crovex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\dashboards\\dastyle.jpg",
+      "PackagePath": "staticwebassets\\images\\dashboards\\dastyle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\dashboards\\frogetor.jpg",
+      "PackagePath": "staticwebassets\\images\\dashboards\\frogetor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\dashboards\\metrica.jpg",
+      "PackagePath": "staticwebassets\\images\\dashboards\\metrica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\error.svg",
+      "PackagePath": "staticwebassets\\images\\error.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\french_flag.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\french_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\germany_flag.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\germany_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\italy_flag.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\italy_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\russia_flag.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\russia_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\spain_flag.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\spain_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\flags\\us_flag.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\us_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\img-3.webp",
+      "PackagePath": "staticwebassets\\images\\img-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\money-beg.png",
+      "PackagePath": "staticwebassets\\images\\money-beg.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\open.png",
+      "PackagePath": "staticwebassets\\images\\open.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\pattern-sm.png",
+      "PackagePath": "staticwebassets\\images\\pattern-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\pattern.png",
+      "PackagePath": "staticwebassets\\images\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\plus.png",
+      "PackagePath": "staticwebassets\\images\\plus.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\01.png",
+      "PackagePath": "staticwebassets\\images\\products\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\02.png",
+      "PackagePath": "staticwebassets\\images\\products\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\03.png",
+      "PackagePath": "staticwebassets\\images\\products\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\04.png",
+      "PackagePath": "staticwebassets\\images\\products\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\05.png",
+      "PackagePath": "staticwebassets\\images\\products\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\06.png",
+      "PackagePath": "staticwebassets\\images\\products\\06.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\bg-cart.png",
+      "PackagePath": "staticwebassets\\images\\products\\bg-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-1.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-2.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-3.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-4.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-4.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-5.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-5.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-6.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-6.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-7.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-7.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\products\\img-8.png",
+      "PackagePath": "staticwebassets\\images\\products\\img-8.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\signature.png",
+      "PackagePath": "staticwebassets\\images\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\atom.svg",
+      "PackagePath": "staticwebassets\\images\\small\\atom.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\bitcoin.svg",
+      "PackagePath": "staticwebassets\\images\\small\\bitcoin.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\blocks.svg",
+      "PackagePath": "staticwebassets\\images\\small\\blocks.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\cobweb.svg",
+      "PackagePath": "staticwebassets\\images\\small\\cobweb.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\ex-card.png",
+      "PackagePath": "staticwebassets\\images\\small\\ex-card.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\rgb.svg",
+      "PackagePath": "staticwebassets\\images\\small\\rgb.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\sm-1.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\sm-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\sm-2.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\sm-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\small\\sm-3.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\sm-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-1.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-10.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-2.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-3.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-4.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-5.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-6.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-7.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-8.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\users\\user-9.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\widgets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\btc.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\btc.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\calendar.svg",
+      "PackagePath": "staticwebassets\\images\\widgets\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\flame-5.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\flame-5.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\opp-1.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\opp-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\opp-2.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\opp-2.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\opp-3.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\opp-3.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\p-1.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\p-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\p-2.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\p-2.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\p-3.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\p-3.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\p-4.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\p-4.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\project1.jpg",
+      "PackagePath": "staticwebassets\\images\\widgets\\project1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\project2.jpg",
+      "PackagePath": "staticwebassets\\images\\widgets\\project2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\project3.jpg",
+      "PackagePath": "staticwebassets\\images\\widgets\\project3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\project4.jpg",
+      "PackagePath": "staticwebassets\\images\\widgets\\project4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\widgets\\weather.png",
+      "PackagePath": "staticwebassets\\images\\widgets\\weather.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\jquery.core.js",
+      "PackagePath": "staticwebassets\\js\\jquery.core.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\metismenu.min.js",
+      "PackagePath": "staticwebassets\\js\\metismenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\moment.js",
+      "PackagePath": "staticwebassets\\js\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.analytics_dashboard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.analytics_dashboard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.animate.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.animate.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.apexcharts.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.apexcharts.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.calendar.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.chartjs.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.chartjs.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.clipboard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.clipboard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.crm_dashboard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.crm_dashboard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.datatable.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.datatable.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.dragula.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.dragula.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.flot.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.flot.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.form-editor.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.form-editor.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.form-repeater.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.form-repeater.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.form-upload.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.form-upload.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.form-wizard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.form-wizard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.form-xeditable.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.form-xeditable.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.forms-advanced.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.forms-advanced.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.gallery.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.gallery.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.gmaps.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.gmaps.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.helpdesk-dashboard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.helpdesk-dashboard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.idle-timer.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.idle-timer.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.jvectormap.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.jvectormap.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.leaflet-map.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.leaflet-map.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.lightbox.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.lightbox.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.morris.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.morris.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.nastable.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.nastable.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.profile.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.profile.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.projects_new.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.projects_new.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.projects_overview.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.projects_overview.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.rangeslider.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.rangeslider.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.rating.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.rating.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.responsive-table.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.responsive-table.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.rtl-apexcharts.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.rtl-apexcharts.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.sales_dashboard.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.sales_dashboard.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.sweet-alert.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.sweet-alert.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.tabledit.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.tabledit.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.task.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.task.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.timeout.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.timeout.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.treeview.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.treeview.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.validation.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.validation.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\pages\\jquery.widgets.init.js",
+      "PackagePath": "staticwebassets\\js\\pages\\jquery.widgets.init.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\js\\waves.js",
+      "PackagePath": "staticwebassets\\js\\waves.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\RWD-Table-Patterns\\dist\\css\\rwd-table.min.css",
+      "PackagePath": "staticwebassets\\lib\\RWD-Table-Patterns\\dist\\css\\rwd-table.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\RWD-Table-Patterns\\dist\\js\\rwd-table.min.js",
+      "PackagePath": "staticwebassets\\lib\\RWD-Table-Patterns\\dist\\js\\rwd-table.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\apexcharts.common.js",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\apexcharts.common.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\irregular-data-series.js",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\irregular-data-series.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\ca.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\cs.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\de.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\de.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\el.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\el.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\en.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\en.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\es.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\es.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\fi.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\fr.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\he.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\he.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\hi.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\hr.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\hy.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\id.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\id.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\it.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\it.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\ko.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\lt.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\nb.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\nl.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\pl.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\pt-br.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\pt.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\ru.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\se.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\se.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\sk.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\sl.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\tr.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\locales\\ua.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\apex-charts\\ohlc.js",
+      "PackagePath": "staticwebassets\\lib\\apex-charts\\ohlc.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootable\\bootstable.js",
+      "PackagePath": "staticwebassets\\lib\\bootable\\bootstable.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap-maxlength\\bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-maxlength\\bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap-maxlength\\src\\bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-maxlength\\src\\bootstrap-maxlength.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap-session-timeout\\bootstrap-session-timeout.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-session-timeout\\bootstrap-session-timeout.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap-touchspin\\css\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-touchspin\\css\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap-touchspin\\js\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-touchspin\\js\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\chartjs\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\chartjs\\chart.min.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\chartjs\\roundedBar.min.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\roundedBar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\clipboard\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\lib\\clipboard\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\json\\scroller-demo.json",
+      "PackagePath": "staticwebassets\\lib\\datatables\\json\\scroller-demo.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\jszip.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\objects.txt",
+      "PackagePath": "staticwebassets\\lib\\datatables\\objects.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\select.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\select.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\datatables\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\lib\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\lib\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dragula\\dragula.min.css",
+      "PackagePath": "staticwebassets\\lib\\dragula\\dragula.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dragula\\dragula.min.js",
+      "PackagePath": "staticwebassets\\lib\\dragula\\dragula.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\css\\dropify.min.css",
+      "PackagePath": "staticwebassets\\lib\\dropify\\css\\dropify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\fonts\\dropify.eot",
+      "PackagePath": "staticwebassets\\lib\\dropify\\fonts\\dropify.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\fonts\\dropify.svg",
+      "PackagePath": "staticwebassets\\lib\\dropify\\fonts\\dropify.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\fonts\\dropify.ttf",
+      "PackagePath": "staticwebassets\\lib\\dropify\\fonts\\dropify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\fonts\\dropify.woff",
+      "PackagePath": "staticwebassets\\lib\\dropify\\fonts\\dropify.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\lib\\dropify\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\lib\\dropify\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\images\\cover.jpg",
+      "PackagePath": "staticwebassets\\lib\\dropify\\images\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\dropify\\js\\dropify.min.js",
+      "PackagePath": "staticwebassets\\lib\\dropify\\js\\dropify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.canvaswrapper.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.canvaswrapper.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.colorhelpers.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.colorhelpers.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot-dataType.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot-dataType.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.axislabels.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.axislabels.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.browser.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.browser.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.drawSeries.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.drawSeries.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.legend.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.legend.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.saturated.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.saturated.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.flot.uiConstants.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.flot.uiConstants.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\flot-chart\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\flot-chart\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\main.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales-all.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales-all.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\af.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-dz.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-kw.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-ly.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-ma.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-sa.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-tn.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\da.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\de.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\el.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-au.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-gb.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-nz.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-nz.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\es-us.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\es-us.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\es.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\et.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr-ca.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr-ch.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\he.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\id.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\is.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\it.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ka.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lb.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lb.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\mk.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nn.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nn.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pt-br.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\th.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\zh-cn.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\zh-tw.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\main.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\core\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\main.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\main.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\list\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\luxon\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\moment\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\main.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\main.d.ts",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\main.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\main.esm.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\main.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\main.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\package.json",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.controls.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.controls.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.core.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.core.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.events.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.events.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.geofences.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.geofences.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.geometry.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.geometry.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.layers.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.layers.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.map_types.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.map_types.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.markers.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.markers.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.native_extensions.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.native_extensions.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.overlays.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.overlays.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.routes.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.routes.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.static.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.static.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.streetview.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.streetview.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.styles.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.styles.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\gmaps\\lib\\gmaps.utils.js",
+      "PackagePath": "staticwebassets\\lib\\gmaps\\lib\\gmaps.utils.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\huebee\\huebee.min.css",
+      "PackagePath": "staticwebassets\\lib\\huebee\\huebee.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\huebee\\huebee.pkgd.min.js",
+      "PackagePath": "staticwebassets\\lib\\huebee\\huebee.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\idle-timer\\idle-timer.min.js",
+      "PackagePath": "staticwebassets\\lib\\idle-timer\\idle-timer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\_base.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\_base.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\_mixins.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\_mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\irs.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\irs.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\skins\\big.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\skins\\big.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\skins\\flat.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\skins\\flat.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\skins\\modern.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\skins\\modern.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\skins\\round.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\skins\\round.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\skins\\sharp.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\skins\\sharp.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\ion-rangeslider\\less\\skins\\square.less",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\less\\skins\\square.less"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jquery-steps\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-steps\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jquery-steps\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-steps\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\gdp-data.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\gdp-data.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-2.0.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-ca-lcc.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-ca-lcc.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-europe-mill-en.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-europe-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\vmap-23\\jquery-jvectormap-2.0.3.min.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\vmap-23\\jquery-jvectormap-2.0.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\jvectormap\\vmap-23\\jquery-jvectormap-world-mill.js",
+      "PackagePath": "staticwebassets\\lib\\jvectormap\\vmap-23\\jquery-jvectormap-world-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\control\\Control.Attribution.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\control\\Control.Attribution.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\control\\Control.Layers.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\control\\Control.Layers.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\control\\Control.Scale.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\control\\Control.Scale.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\control\\Control.Zoom.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\control\\Control.Zoom.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\control\\Control.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\control\\Control.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\control\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\control\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Browser.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Browser.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Class.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Class.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Class.leafdoc",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Class.leafdoc"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Events.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Events.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Events.leafdoc",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Events.leafdoc"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Handler.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Handler.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\Util.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\Util.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\core\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\core\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\DomEvent.DoubleTap.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\DomEvent.DoubleTap.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\DomEvent.Pointer.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\DomEvent.Pointer.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\DomEvent.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\DomEvent.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\DomUtil.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\DomUtil.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\Draggable.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\Draggable.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\PosAnimation.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\PosAnimation.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\dom\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\dom\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\eu-countries.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\eu-countries.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\LatLng.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\LatLng.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\LatLngBounds.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\LatLngBounds.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\CRS.EPSG3395.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\CRS.EPSG3395.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\CRS.EPSG3857.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\CRS.EPSG3857.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\CRS.EPSG4326.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\CRS.EPSG4326.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\CRS.Earth.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\CRS.Earth.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\CRS.Simple.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\CRS.Simple.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\CRS.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\CRS.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\crs\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\crs\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\projection\\Projection.LonLat.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\projection\\Projection.LonLat.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\projection\\Projection.Mercator.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\projection\\Projection.Mercator.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\projection\\Projection.SphericalMercator.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\projection\\Projection.SphericalMercator.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geo\\projection\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geo\\projection\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geometry\\Bounds.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geometry\\Bounds.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geometry\\LineUtil.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geometry\\LineUtil.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geometry\\Point.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geometry\\Point.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geometry\\PolyUtil.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geometry\\PolyUtil.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geometry\\Transformation.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geometry\\Transformation.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\geometry\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\geometry\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\layers-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\layers.png",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\layers.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\layers.svg",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\layers.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\marker-icon-2x.png",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\marker-icon-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\marker-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\marker-shadow.png",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\marker-shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\images\\marker.svg",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\images\\marker.svg"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\DivOverlay.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\DivOverlay.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\FeatureGroup.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\FeatureGroup.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\GeoJSON.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\GeoJSON.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\ImageOverlay.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\ImageOverlay.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\Layer.Interactive.leafdoc",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\Layer.Interactive.leafdoc"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\Layer.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\Layer.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\LayerGroup.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\LayerGroup.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\Popup.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\Popup.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\SVGOverlay.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\SVGOverlay.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\Tooltip.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\Tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\VideoOverlay.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\VideoOverlay.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\marker\\DivIcon.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\marker\\DivIcon.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\marker\\Icon.Default.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\marker\\Icon.Default.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\marker\\Icon.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\marker\\Icon.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\marker\\Marker.Drag.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\marker\\Marker.Drag.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\marker\\Marker.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\marker\\Marker.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\marker\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\marker\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\tile\\GridLayer.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\tile\\GridLayer.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\tile\\TileLayer.WMS.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\tile\\TileLayer.WMS.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\tile\\TileLayer.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\tile\\TileLayer.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\tile\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\tile\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Canvas.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Circle.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Circle.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\CircleMarker.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\CircleMarker.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Path.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Path.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Polygon.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Polygon.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Polyline.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Polyline.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Rectangle.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Rectangle.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Renderer.getRenderer.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Renderer.getRenderer.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\Renderer.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\Renderer.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\SVG.Util.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\SVG.Util.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\SVG.VML.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\SVG.VML.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\SVG.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\SVG.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\layer\\vector\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\layer\\vector\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\leaflet-tilelayer-colorfilter.min.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\leaflet-tilelayer-colorfilter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\Map.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\Map.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\Map.methodOptions.leafdoc",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\Map.methodOptions.leafdoc"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.BoxZoom.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.BoxZoom.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.DoubleClickZoom.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.DoubleClickZoom.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.Drag.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.Drag.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.Keyboard.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.Keyboard.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.ScrollWheelZoom.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.ScrollWheelZoom.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.Tap.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.Tap.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\handler\\Map.TouchZoom.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\handler\\Map.TouchZoom.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\map\\index.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\map\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\leaflet\\us-states.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\us-states.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\lightbox\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\lightbox\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\lightpick\\lightpick.css",
+      "PackagePath": "staticwebassets\\lib\\lightpick\\lightpick.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\lightpick\\lightpick.js",
+      "PackagePath": "staticwebassets\\lib\\lightpick\\lightpick.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\lib\\morris\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\lib\\morris\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\nestable\\jquery.nestable.min.css",
+      "PackagePath": "staticwebassets\\lib\\nestable\\jquery.nestable.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\nestable\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\lib\\nestable\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\parsleyjs\\parsley.min.js",
+      "PackagePath": "staticwebassets\\lib\\parsleyjs\\parsley.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\prettify\\prettify.css",
+      "PackagePath": "staticwebassets\\lib\\prettify\\prettify.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\prettify\\run_prettify.js",
+      "PackagePath": "staticwebassets\\lib\\prettify\\run_prettify.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\prism\\prism-okaidia.css",
+      "PackagePath": "staticwebassets\\lib\\prism\\prism-okaidia.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\prism\\prism.css",
+      "PackagePath": "staticwebassets\\lib\\prism\\prism.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\prism\\prism.js",
+      "PackagePath": "staticwebassets\\lib\\prism\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\lib\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\jquery.barrating.min.js",
+      "PackagePath": "staticwebassets\\lib\\rating\\jquery.barrating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bars-1to10.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bars-1to10.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bars-horizontal.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bars-horizontal.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bars-movie.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bars-movie.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bars-pill.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bars-pill.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bars-reversed.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bars-reversed.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bars-square.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bars-square.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\bootstrap-stars.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\bootstrap-stars.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\css-stars.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\css-stars.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\fontawesome-stars-o.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\fontawesome-stars-o.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\fontawesome-stars.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\fontawesome-stars.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\rating\\themes\\rating.css",
+      "PackagePath": "staticwebassets\\lib\\rating\\themes\\rating.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\repeater\\jquery.repeater.min.js",
+      "PackagePath": "staticwebassets\\lib\\repeater\\jquery.repeater.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\select2\\img\\droparrows.png",
+      "PackagePath": "staticwebassets\\lib\\select2\\img\\droparrows.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\select2\\img\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\lib\\select2\\img\\select2-spinner.gif"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\select2\\img\\select2.png",
+      "PackagePath": "staticwebassets\\lib\\select2\\img\\select2.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\select2\\img\\select2x2.png",
+      "PackagePath": "staticwebassets\\lib\\select2\\img\\select2x2.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-az-AZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-az-AZ.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\summernote-bs4.min.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\summernote\\summernote-bs4.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\sweet-alert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweet-alert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\sweet-alert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweet-alert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\timepicker\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\lib\\timepicker\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\timepicker\\bootstrap-material-datetimepicker.js",
+      "PackagePath": "staticwebassets\\lib\\timepicker\\bootstrap-material-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\tiny-editable\\mindmup-editabletable.js",
+      "PackagePath": "staticwebassets\\lib\\tiny-editable\\mindmup-editabletable.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\tiny-editable\\numeric-input-example.js",
+      "PackagePath": "staticwebassets\\lib\\tiny-editable\\numeric-input-example.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\tippy\\tippy.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\tippy\\tippy.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\jstree.min.js",
+      "PackagePath": "staticwebassets\\lib\\treeview\\jstree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\root.json",
+      "PackagePath": "staticwebassets\\lib\\treeview\\root.json"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default-dark\\32px.png",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default-dark\\32px.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default-dark\\40px.png",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default-dark\\40px.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default-dark\\style.css",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default-dark\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default-dark\\style.min.css",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default-dark\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default-dark\\throbber.gif",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default-dark\\throbber.gif"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default\\32-1px.png",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default\\32-1px.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default\\32px.png",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default\\32px.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default\\40px.png",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default\\40px.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default\\style.css",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default\\style.min.css",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\treeview\\themes\\default\\throbber.gif",
+      "PackagePath": "staticwebassets\\lib\\treeview\\themes\\default\\throbber.gif"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\x-editable\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\lib\\x-editable\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\x-editable\\img\\clear.png",
+      "PackagePath": "staticwebassets\\lib\\x-editable\\img\\clear.png"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\x-editable\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\x-editable\\img\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\lib\\x-editable\\js\\bootstrap-editable.min.js",
+      "PackagePath": "staticwebassets\\lib\\x-editable\\js\\bootstrap-editable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\app-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\app-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\app-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\app-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\app.scss",
+      "PackagePath": "staticwebassets\\scss\\app.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\bootstrap-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_form-advanced.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_form-advanced.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_form-editor.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_form-editor.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_form-validation.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_form-validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_form-wizard.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_form-wizard.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_modals.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_modals.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_switch.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\components\\_waves.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_waves.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\icons.scss",
+      "PackagePath": "staticwebassets\\scss\\icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_account-pages.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_account-pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_analytics.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_analytics.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_avatar.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_background-color.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_background-color.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_chat.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_chat.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_check-radio.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_check-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_crm.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_crm.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_ecommerce.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_ecommerce.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_email.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_email.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_faq.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_faq.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_files.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_files.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_general.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_general.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_helpdesk.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_helpdesk.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_invoice.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_invoice.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_pricing.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_profile.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_projects.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_projects.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_ribbons.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_ribbons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\pages\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_charts.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_dripicons.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_dripicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_feather.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_feather.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_fontawesome.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_fontawesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_line-awesome.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_line-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_maps.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_materialdesignicons.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_materialdesignicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_nastable.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_nastable.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_prittify-code.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_prittify-code.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_rangeslider.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_rangeslider.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_simplebar.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_simplebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_sweet-alert.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_sweet-alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_themify-icons.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_themify-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_tinymce.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_tinymce.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_tippy.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_tippy.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\plugins\\_typicons.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_typicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_bootstrap-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_bootstrap-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_components-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_components-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_float-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_float-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_general-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_general-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_plugins-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_plugins-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_reboot-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_reboot-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_spacing-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_spacing-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_structure-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_structure-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\rtl\\_text-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_text-rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\structure\\_dark-sidenav.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_dark-sidenav.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\structure\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\structure\\_horizontal-nav.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_horizontal-nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\structure\\_leftbar.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_leftbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\structure\\_rightbar.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_rightbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\scss\\structure\\_topbar.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_topbar.scss"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Dastone.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Dastone.props",
+      "PackagePath": "build\\Dastone.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Dastone.props",
+      "PackagePath": "buildMultiTargeting\\Dastone.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Dastone.props",
+      "PackagePath": "buildTransitive\\Dastone.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

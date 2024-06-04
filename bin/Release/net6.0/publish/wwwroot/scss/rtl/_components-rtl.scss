@@ -1,0 +1,92 @@
+//
+// components-rtl.scss
+//
+
+// Alert
+.alert.custom-alert:after {
+  content: '';
+  position: absolute;
+  left: auto;
+  right: 0;
+}
+// Badge Custom
+.badge.badge-dot:after {
+  right: auto;
+  left: 3px;
+}
+
+
+// Custom-radio
+
+.checkbox {
+  label {
+    padding-right: 8px;
+    padding-left: 0;
+
+    &::before {
+      left: auto;
+      right: 0;
+      margin-left: 0;
+      margin-right: -18px;
+    }
+
+    &::after {
+      left: auto;
+      right: 0;
+      margin-right: -18px;
+      margin-left: 0;
+      padding-left: 0;
+      padding-right: 3px;
+    }
+  }
+
+  input[type="checkbox"]:checked+label {
+    &::after {
+      left: auto;
+      right: 7px;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.checkbox.checkbox-single {
+  label {
+    &:before {
+      margin-right: 0;
+    }
+
+    &:after {
+      margin-right: 0;
+    }
+  }
+}
+
+.form-select{
+  padding: $form-select-padding-y $form-select-padding-x  $form-select-padding-y $form-select-indicator-padding;
+}
+// custom-radio
+
+.radio {
+  label {
+    padding-left: 0;
+    padding-right: 8px;
+
+    &::before {
+      left: auto;
+      right: 0;
+      margin-left: 0;
+      margin-right: -18px;
+    }
+
+    &::after {
+      left: 0;
+      right: 6px;
+      margin-left: 0;
+      margin-right: -20px;
+    }
+  }
+}
+
+.modal-header .btn-close {
+  margin: -.5rem auto -.5rem -.5rem;
+}

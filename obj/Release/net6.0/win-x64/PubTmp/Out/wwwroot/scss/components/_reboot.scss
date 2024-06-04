@@ -1,0 +1,123 @@
+/* =============
+   General
+============= */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  margin: 0;
+  overflow-x: hidden !important;
+  font-size: $font-size-base;
+  background-color: $body-bg;
+  color: $body-color;
+  min-height: 100vh;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  display: flex;
+  position: relative;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,
+h1,h2,h3,h4,h5,h6 {
+  color: $gray-700;
+  margin: 10px 0;
+}
+
+
+h1 {
+  line-height: 43px;
+}
+
+h2 {
+  line-height: 35px;
+}
+
+h3 {
+  line-height: 30px;
+}
+
+h4 {
+  line-height: 22px;
+}
+
+
+a {
+  font-family: $font-primary;
+  color: $gray-700;
+  text-decoration: none;
+  &:hover,&:active,&:focus {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+
+p {
+  line-height: 1.6;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+}
+
+* {
+  outline: none !important;
+}
+
+.w-30{
+  width: 30% !important;
+}
+
+.fw-semibold{
+  font-weight: $font-weight-semibold !important;
+}
+
+
+.list-group{
+  &.custom-list-group{
+    .list-group-item{
+      border-right-width: 0;
+      border-left-width: 0;
+      border-radius: 0;
+      &:first-child {
+        border-top-width: 0;
+      }      
+    }
+    >.list-group-item {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &:last-child {
+      .list-group-item{
+        &:last-child {
+          border-bottom-width: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+hr{
+  opacity: 1;
+  &.hr-dashed {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px dashed $border_2;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    background-color: transparent;
+  }
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+.media-body {
+  flex: 1;
+}

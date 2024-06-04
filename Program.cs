@@ -13,8 +13,9 @@ public class Program
         builder.Services.AddControllersWithViews();
 
         //ConnectrionString
-        var connection = builder.Configuration.GetConnectionString("SourceConnection");
-        builder.Services.AddDbContext<PruebaContexto>(options => options.UseSqlServer(connection));
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        builder.Services.AddDbContext<PruebaContexto>(options =>
+            options.UseSqlServer(connectionString));
 
         // Configure cookie based authentication
         builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

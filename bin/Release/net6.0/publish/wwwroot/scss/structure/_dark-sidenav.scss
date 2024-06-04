@@ -1,0 +1,237 @@
+/*
+Template Name: Dastone - Admin & Dashboard Template
+Author: Mannatthemes
+File: Dark Sidenav & Topbar
+*/
+
+
+//
+//  Dark Sidenav
+// 
+
+body{
+  &.dark-topbar{
+    .topbar {
+      .brand {
+        background-color: $brand-dark-bg;
+        .logo {
+          .logo-lg{
+            display: none;
+            &.logo-light{
+              display: inline-block;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+    .navbar-custom {
+      background: $header-dark-bg;
+      .nav-link {
+          color: $header-item-dark-color;
+      }
+      .topbar-nav {
+          li {
+              &.show {
+                  .nav-link {
+                      background-color: lighten($header-dark-bg, 3%);
+                      color: $body-color;
+                  }
+              }
+          }
+      }
+    }
+
+    .navbar-custom-menu {
+      .has-submenu:hover{
+        a{
+          span{
+            color: $white;
+            background-color: lighten($header-dark-bg, 3%);
+          }
+        }
+        &.active {
+          a {
+              i{
+                  color: $header-item-active-color;
+              }
+              span{
+                background-color: lighten($header-dark-bg, 3%);
+                color: $white;
+              }
+          }         
+        }
+      }
+  }
+    
+    .button-menu-mobile {
+      color: $header-icon-dark-color;
+    }
+
+  /* Notification */
+  
+    .notification-list {      
+      .noti-icon-badge {
+          border: 2px solid rgba($white, 0.6);
+      }
+    } 
+     @media (min-width: 992px){
+      .topbar {
+        .navigation-menu>li>a{
+          color: $header-item-dark-color;
+        }
+        .navbar-custom-menu .has-submenu.active a span{
+          background-color: lighten($header-dark-bg, 3%);
+          color: $white;
+        }
+      }
+    }    
+  }
+}
+
+
+body{
+  &.dark-sidenav{    
+    .left-sidenav {
+      background-color: $sidebar-dark-bg;
+      .brand {
+        .logo {
+          .logo-lg{
+            display: none;
+            &.logo-light{
+              display: inline-block;
+            }
+          }
+        }
+      }
+      hr.hr-dashed.hr-menu{
+        border-color: $sidebar-dark-hr;
+      }
+    }
+    
+    .left-sidenav-menu {
+      li {
+          > a {
+              color: $sidebar-item-dark-color;
+              &.active{
+                color: $sidebar-item-dark-active-color;
+              }
+
+              &:hover {
+                  color: $sidebar-sub-item-hover-dark-color;
+                  i{
+                      color: $sidebar-icon-hover-dark-color;                      
+                  } 
+                  span{
+                    i{
+                        color: $sidebar-item-hover-dark-color;
+                    }
+                }                
+              }
+              i {
+                  color: $sidebar-icon-dark-color;
+                  
+              }
+              
+          }
+
+          ul {
+
+              li {
+                  > a {
+                      color: $sidebar-sub-item-dark-color;
+                      &:hover {
+                          color: $sidebar-sub-item-hover-dark-color;
+                          i{
+                              color: $sidebar-sub-item-hover-dark-color; 
+                          }
+                      }
+                  }
+              }
+          }
+
+          &.mm-active { 
+              .mm-active{
+                  >a{
+                      color: $sidebar-sub-item-active-dark-color;
+                      background: $sidebar-dark-bg;
+                      &.active{
+                          color: $sidebar-item-dark-color;
+                          background-color: transparent; 
+                          font-weight: 500;                                                
+                      }
+                      i{
+                          color: $sidebar-item-dark-color;
+                      }                               
+                  }
+                  .mm-show{
+                      li{
+                          a.active{
+                              color: $sidebar-sub-item-active-color;
+                          }
+                      }
+                  }
+              }
+
+              > a  {
+                  color: $header-item-dark-active-color;
+                  i{
+                      color: $header-item-dark-active-color;
+                  }
+              }
+              .nav-item.active{
+                  a.nav-link.active{
+                      background-color:transparent;
+                      color: $sidebar-sub-item-active-color;
+                      i{
+                          color: $sidebar-sub-item-active-color; 
+                      }
+                  }
+              }
+              
+          }
+          
+      }
+
+      .menu-arrow {
+          i {
+              width: 15px;
+              color: $sidebar-arrow-dark-color;
+          }
+      }
+    } 
+    &.navy-sidenav{
+      .left-sidenav {
+        background-color: $navy;
+        .left-sidenav-menu {
+          li>a.active {
+            .menu-icon{
+              color: $white;
+            }
+          }
+          li.mm-active{
+            .nav-item.active{
+              a.nav-link.active{
+                color: $white;
+              }
+            }
+            .mm-active {
+              .mm-show {
+                li {
+                  a.active{
+                    color: $sidebar-item-dark-active-color;
+                  }
+                }
+              }
+              >a{
+                background-color: transparent;
+                color: white;
+              }
+            }
+          }
+        }  
+      }
+    }  
+  }
+}
+
