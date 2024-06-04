@@ -18,57 +18,58 @@
                     </div>  <!--end row-->
                 </div><!--end card-header-->
                 <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-hover mb-0 datatable-buttons" id="datatable-buttons">
-                            <thead class="thead-light">
+                    <table id="prueba" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                        <thead>
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Placa</th>
+                                <th>Fecha Creación</th>
+                                <th>Tipo Trabajo</th>
+                                <th>Detalle Orden</th>
+                                <th>Estado</th>
+                                <th>Costo Total</th>
+                                <th>Fecha Entrega</th>
+                                <th>Observaciones</th>
+                                <th>Acciones</th> <!-- Nueva columna para los botones -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var orden in Model)
+                            {
                                 <tr>
-                                    <th>Cliente</th>
-                                    <th>Placa</th>
-                                    <th>Fecha Creación</th>
-                                    <th>Tipo Trabajo</th>
-                                    <th>Detalle Orden</th>
-                                    <th>Estado</th>
-                                    <th>Costo Total</th>
-                                    <th>Fecha Entrega</th>
-                                    <th>Observaciones</th>
-                                    <th>Acciones</th> <!-- Nueva columna para los botones -->
+                                    <td>@orden.ClienteId</td>
+                                    <td>@orden.Placa</td>
+                                    <td>@orden.FechaCreacion</td>
+                                    <td>@orden.TipoTrabajo</td>
+                                    <td>@orden.DetalleOrden</td>
+                                    <td>@orden.Estado</td>
+                                    <td>@orden.CostoTotal</td>
+                                    <td>@orden.FechaEntrega</td>
+                                    <td>@orden.Observaciones</td>
+                                    <td>
+                                        <a asp-action="Comprobante" asp-route-id="@orden.OrdenId" class="btn btn-success">
+                                            <i class="fas fa-file-alt"></i><span class="align-middle">Generar Comprobante</span>
+                                        </a>
+                                        <a asp-action="Repuestos" asp-route-id="@orden.OrdenId" class="btn btn-success">
+                                            <i class="fas fa-file-alt"></i><span class="align-middle">Asignar Repuestos</span>
+                                        </a>
+                                    </td>
                                 </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var orden in Model)
-                                {
-                                    <tr>
-                                        <td>@orden.ClienteId</td>
-                                        <td>@orden.Placa</td>
-                                        <td>@orden.FechaCreacion</td>
-                                        <td>@orden.TipoTrabajo</td>
-                                        <td>@orden.DetalleOrden</td>
-                                        <td>@orden.Estado</td>
-                                        <td>@orden.CostoTotal</td>
-                                        <td>@orden.FechaEntrega</td>
-                                        <td>@orden.Observaciones</td>
-                                        <td>
-                                            <a asp-action="Comprobante" asp-route-id="@orden.OrdenId" class="btn btn-success">
-                                                <i class="fas fa-file-alt"></i><span class="align-middle">Generar Comprobante</span>
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a asp-action="Repuestos" asp-route-id="@orden.OrdenId"  class="btn btn-success">
-                                                <i class="fas fa-file-alt"></i><span class="align-middle">Asignar Repuestos</span>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                }
-                            </tbody>
-                        </table>
-                    </div><!--end table-responsive-->
+                            }
+                        </tbody>
+                    </table>
                 </div>
             </div><!--end card-->
         </div><!--end col-->
     </div><!--end row-->
 </div>
 
+
+
+
+
 @section scripts{
+
     <!-- Required datatable js -->
     <script src="~/lib/datatables/jquery.dataTables.min.js"></script>
     <script src="~/lib/datatables/dataTables.bootstrap5.min.js"></script>
@@ -90,4 +91,37 @@
     <script src="~/lib/tiny-editable/numeric-input-example.js"></script>
     <script src="~/lib/bootable/bootstable.js"></script>
     <script src="~/js/pages/jquery.tabledit.init.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var tabla = $('#prueba').DataTable({
+                dom: 'Bfrtip',
+                buttons: [
+                    {
+                        extend: 'excelHtml5',
+                        text: feather.icons['file-text'].toSvg({ class: 'feather feather-file-text' }),
+                        className: 'btn btn-success',
+                        titleAttr: 'Exportar a Excel'
+                    },
+                    {
+                        extend: 'pdfHtml5',
+                        text: feather.icons['file'].toSvg({ class: 'feather feather-file' }),
+                        className: 'btn btn-danger',
+                        titleAttr: 'Exportar a PDF'
+                    },
+                    {
+                        extend: 'print',
+                        text: feather.icons['printer'].toSvg({ class: 'feather feather-printer' }),
+                        className: 'btn btn-primary',
+                        titleAttr: 'Imprimir'
+                    }
+                ]
+            });
+
+            // Renderizar los íconos de Feather
+            feather.replace();
+        });
+    </script>
 }
+
+

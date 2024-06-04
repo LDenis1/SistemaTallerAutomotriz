@@ -589,14 +589,6 @@
       "PackagePath": "staticwebassets\\images\\logo-dark.png"
     },
     {
-      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo-sm-dark.png",
-      "PackagePath": "staticwebassets\\images\\logo-sm-dark.png"
-    },
-    {
-      "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo-sm.png",
-      "PackagePath": "staticwebassets\\images\\logo-sm.png"
-    },
-    {
       "Id": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },

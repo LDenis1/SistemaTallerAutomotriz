@@ -50,6 +50,12 @@ namespace PruebaContext.Controllers
             return View();
         }
 
+        public IActionResult Login()
+        {
+
+            return RedirectToAction("Index", "Security");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

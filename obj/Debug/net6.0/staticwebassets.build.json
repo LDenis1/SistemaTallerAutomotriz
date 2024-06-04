@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zb5GGLSweMCEiMlKixMbE+hgdLp0BDINtVCg+B2jDqs=",
+  "Hash": "l6jOwDZl8aLKsPpFGrupaHKJAVY/wX+ypARY8cgBjsc=",
   "Source": "Dastone",
   "BasePath": "_content/Dastone",
   "Mode": "Default",
@@ -2531,40 +2531,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo-dark.png"
-    },
-    {
-      "Identity": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo-sm.png",
-      "SourceId": "Dastone",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\",
-      "BasePath": "_content/Dastone",
-      "RelativePath": "images/logo-sm.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo-sm.png"
-    },
-    {
-      "Identity": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\logo-sm-dark.png",
-      "SourceId": "Dastone",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\",
-      "BasePath": "_content/Dastone",
-      "RelativePath": "images/logo-sm-dark.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo-sm-dark.png"
     },
     {
       "Identity": "C:\\Users\\DNIS\\Documents\\ProyectoTecnico\\integracion\\wwwroot\\images\\money-beg.png",

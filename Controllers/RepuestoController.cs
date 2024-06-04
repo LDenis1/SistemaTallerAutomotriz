@@ -38,12 +38,12 @@ namespace PruebaContext.Controllers
         [Authorize(Roles = "Administrador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AsignarRepuestos(RepuestoUsado repuestousado)
+        public async Task<IActionResult> Create(Vehiculo vehiculo)
         {
             try
             {
                 // Añadir el vehículo al contexto y guardar los cambios
-                _context.RepuestoUsados.Add(repuestousado);
+                _context.Vehiculos.Add(vehiculo);
                 await _context.SaveChangesAsync();
 
                 // Redirigir a la acción Index después de guardar
@@ -56,7 +56,7 @@ namespace PruebaContext.Controllers
             }
 
             // Si hay errores de validación, mostrar la vista nuevamente con los errores
-            return View(repuestousado);
+            return View(vehiculo);
         }
 
 
