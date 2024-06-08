@@ -168,3 +168,6 @@ C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\System.Code
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\Serilog.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Debug\net6.0\Serilog.Sinks.File.dll

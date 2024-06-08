@@ -5,7 +5,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2024-06-04T06:39:11.3666709Z;True|2024-06-04T00:11:53.3766393-06:00;True|2024-06-03T22:59:09.8638924-06:00;</History>
+    <History>True|2024-06-05T05:13:06.6006116Z;True|2024-06-04T23:00:31.5044715-06:00;True|2024-06-04T21:21:51.3946716-06:00;True|2024-06-04T20:29:54.0270660-06:00;True|2024-06-04T20:07:17.2744002-06:00;True|2024-06-04T19:16:31.4035396-06:00;True|2024-06-04T19:09:47.9156154-06:00;True|2024-06-04T19:08:50.7843129-06:00;True|2024-06-04T18:55:19.1027823-06:00;True|2024-06-04T00:39:11.3666709-06:00;True|2024-06-04T00:11:53.3766393-06:00;True|2024-06-03T22:59:09.8638924-06:00;</History>
     <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=WIN-F0AI7KESOUH\SQLEXPRESS%3b Database=Prueba%3b Integrated Security=true%3b Trust Server Certificate=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

@@ -71,3 +71,6 @@ C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\r
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\Dastone.pdb
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\Dastone.genruntimeconfig.cache
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\ref\Dastone.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Release\net6.0\win-x64\Serilog.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Release\net6.0\win-x64\Serilog.Extensions.Logging.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\bin\Release\net6.0\win-x64\Serilog.Sinks.File.dll

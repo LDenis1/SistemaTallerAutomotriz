@@ -31,6 +31,9 @@ C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\P
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\Microsoft.SqlServer.Server.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\Serilog.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\Serilog.Extensions.Logging.dll
+C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\Serilog.Sinks.File.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\System.Drawing.Common.dll
 C:\Users\DNIS\Documents\ProyectoTecnico\integracion\obj\Release\net6.0\win-x64\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
