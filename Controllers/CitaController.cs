@@ -33,6 +33,26 @@ namespace PruebaContext.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Administrador")]
+        public IActionResult CambiarEstado(int id)
+        {
+
+            // Obtener la orden de trabajo por su ID
+            var cita= _context.Cita
+                .FirstOrDefault(o => o.CitaId == id);
+
+            // Verificar si la orden de trabajo existe
+            if (cita == null)
+            {
+                // Manejar el caso en que no se encuentre la orden de trabajo (puede redirigir a una página de error, por ejemplo)
+                return NotFound();
+            }
+
+            // Pasar la orden de trabajo a la vista "CambiarEstado"
+            return View(cita);
+
+        }
+
         [Authorize(Roles = "Administrador")] // Asegura que solo los administradores puedan acceder a este método
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -61,6 +81,28 @@ namespace PruebaContext.Controllers
             return View(cita);
         }
 
+
+        [HttpPost]
+        [Authorize(Roles = "Administrador")]
+        public IActionResult CambiarEstado(int id, string estadoSeleccionado)
+        {
+            var cita = _context.Cita.FirstOrDefault(o => o.CitaId == id);
+
+            if (cita == null)
+            {
+                return NotFound();
+            }
+
+            cita.Estado = estadoSeleccionado;
+
+            if (ModelState.IsValid)
+            {
+                _context.SaveChanges();
+                return RedirectToAction("Index"); // Redirigir a una página de confirmación o listado de órdenes
+            }
+
+            return View(cita);
+        }
         public IActionResult Privacy()
         {
             return View();

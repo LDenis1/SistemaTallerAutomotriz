@@ -41,6 +41,28 @@ namespace PruebaContext.Controllers
         }
 
         [Authorize(Roles = "Administrador")]
+        public IActionResult CambiarEstado(int id)
+        {
+
+            // Obtener la orden de trabajo por su ID
+            var ordenTrabajo = _context.OrdenTrabajos
+                .FirstOrDefault(o => o.OrdenId == id);
+
+            // Verificar si la orden de trabajo existe
+            if (ordenTrabajo == null)
+            {
+                // Manejar el caso en que no se encuentre la orden de trabajo (puede redirigir a una página de error, por ejemplo)
+                return NotFound();
+            }
+
+            // Pasar la orden de trabajo a la vista "CambiarEstado"
+            return View(ordenTrabajo);
+
+        }
+
+
+
+        [Authorize(Roles = "Administrador")]
 
         public IActionResult Comprobante(int id)
         {
@@ -92,6 +114,30 @@ namespace PruebaContext.Controllers
             return View(ordenTrabajo);
         }
 
+
+
+        [HttpPost]
+        [Authorize(Roles = "Administrador")]
+        public IActionResult CambiarEstado(int id, string estadoSeleccionado)
+        {
+            var ordenTrabajo = _context.OrdenTrabajos.FirstOrDefault(o => o.OrdenId == id);
+
+            if (ordenTrabajo == null)
+            {
+                return NotFound();
+            }
+
+            ordenTrabajo.Estado = estadoSeleccionado;
+
+            if (ModelState.IsValid)
+            {
+                _context.SaveChanges();
+                return RedirectToAction("Index"); // Redirigir a una página de confirmación o listado de órdenes
+            }
+
+            return View(ordenTrabajo);
+        }
+
         [Authorize(Roles = "Administrador")]
         public IActionResult Select()
         {
@@ -110,6 +156,8 @@ namespace PruebaContext.Controllers
 
             return RedirectToAction("Index", "Repuestos", id);
         }
+
+        
 
 
         public IActionResult Privacy()

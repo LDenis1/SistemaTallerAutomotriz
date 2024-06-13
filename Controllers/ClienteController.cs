@@ -49,7 +49,7 @@ namespace PruebaContext.Controllers
                     await _context.SaveChangesAsync();
 
                     // Redirigir a la acción Index después de guardar
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Create", "Vehiculo");
                 }
                 catch (Exception ex)
                 {

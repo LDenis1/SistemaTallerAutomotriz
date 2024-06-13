@@ -31,6 +31,27 @@ namespace PruebaContext.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Administrador")]
+        public IActionResult CambiarEstado(int id)
+        {
+
+            // Obtener la orden de trabajo por su ID
+            var inventario = _context.Repuestos
+                .FirstOrDefault(o => o.RepuestoId == id);
+
+            // Verificar si la orden de trabajo existe
+            if (inventario == null)
+            {
+                // Manejar el caso en que no se encuentre la orden de trabajo (puede redirigir a una página de error, por ejemplo)
+                return NotFound();
+            }
+
+            // Pasar la orden de trabajo a la vista "CambiarEstado"
+            return View(inventario);
+
+        }
+
+
         [Authorize(Roles = "Administrador")] // Asegura que solo los administradores puedan acceder a este método
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -52,6 +73,29 @@ namespace PruebaContext.Controllers
             }
 
             // Si hay errores de validación, mostrar la vista nuevamente con los errores
+            return View(repuesto);
+        }
+
+
+        [HttpPost]
+        [Authorize(Roles = "Administrador")]
+        public IActionResult CambiarEstado(int id, int valor)
+        {
+            var repuesto = _context.Repuestos.FirstOrDefault(o => o.RepuestoId == id);
+
+            if (repuesto == null)
+            {
+                return NotFound();
+            }
+
+            repuesto.Stock = valor;
+
+            if (ModelState.IsValid)
+            {
+                _context.SaveChanges();
+                return RedirectToAction("Index"); // Redirigir a una página de confirmación o listado de órdenes
+            }
+
             return View(repuesto);
         }
 

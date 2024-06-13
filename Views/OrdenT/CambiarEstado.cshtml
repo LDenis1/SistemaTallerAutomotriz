@@ -1,0 +1,36 @@
+﻿@model Dastone.Entities.OrdenTrabajo;
+@{
+    ViewData["Title"] = "CambiarEstado";
+}
+<div class="container-fluid">
+    <h2>Cambiar Estado de la Orden de Trabajo</h2>
+    <form asp-action="CambiarEstado" method="post">
+        <div class="form-group">
+            <label>Estado Actual</label>
+            <input asp-for="Estado" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label for="estadoSeleccionado">Nuevo Estado</label>
+            <select id="estadoSeleccionado" name="estadoSeleccionado" class="form-control">
+                <option value="">Selecciona un estado</option>
+                <option value="Pendiente">Pendiente</option>
+                <option value="En Proceso">En Proceso</option>
+                <option value="Suspendido">Suspendido</option>
+                <option value="Finalizado">Finalizado</option>
+            </select>
+        </div>
+        <input type="hidden" asp-for="OrdenId" />
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    </form>
+</div>
+
+@section styles{
+    <!--Form Wizard-->
+    <link href="~/lib/select2/select2.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/lib/jquery-steps/jquery.steps.css">
+}
+@section scripts{
+    <script src="~/lib/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/js/pages/jquery.form-wizard.init.js"></script>
+    <script src="~/lib/select2/select2.min.js"></script>
+}

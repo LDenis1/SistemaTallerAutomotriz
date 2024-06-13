@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Dastone.Entities.Repuesto>
+@{
     ViewData["Title"] = "Inventario";
 }
 
@@ -21,6 +22,7 @@
                         <table id="tabla" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                             <thead class="thead-light">
                             <tr>
+                                <th>Accion</th>
                                 <th>Nombre</th>
                                 <th>Número de Parte</th>
                                 <th>Descripción</th>
@@ -34,6 +36,11 @@
                             @foreach (var producto in Model)
                             {
                                 <tr>
+                                        <td>
+                                            <a asp-action="CambiarEstado" asp-route-id="@producto.RepuestoId" class="btn btn-success">
+                                                <i class="fas fa-exchange-alt"></i> <span class="align-middle ml-2">Cambiar Stock</span>
+                                            </a>
+                                        </td>
                                     <td>@producto.Nombre</td>
                                     <td>@producto.NumeroParte</td>
                                     <td>@producto.Descripcion</td>

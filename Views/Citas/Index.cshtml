@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Dastone.Entities.Citum>
+@{
     ViewData["Title"] = "Citas";
 }
 
@@ -20,6 +21,7 @@
                     <table id="tabla" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                         <thead>
                             <tr>
+                                <th>Accion</th>
                                 <th>Fecha y Hora</th>
                                 <th>Tipo de Servicio</th>
                                 <th>Descripción</th>
@@ -32,6 +34,11 @@
                             @foreach (var cita in Model)
                             {
                                 <tr>
+                                    <td>
+                                        <a asp-action="CambiarEstado" asp-route-id="@cita.CitaId" class="btn btn-success">
+                                            <i class="fas fa-exchange-alt"></i> <span class="align-middle ml-2">Cambiar Estado</span>
+                                        </a>
+                                    </td>
                                     <td>@cita.FechaHora</td>
                                     <td>@cita.TipoServicio</td>
                                     <td>@cita.Descripcion</td>
